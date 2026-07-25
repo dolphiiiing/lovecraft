@@ -1,0 +1,5364 @@
+{
+  "version": 1,
+  "name": "크툴루",
+  "description": "관계도, 사건정리",
+  "proxyImages": true,
+  "defaultMap": "map-pZu9ed5A",
+  "defaultPerspective": null,
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-6M9Px45c",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "분류",
+        "소속",
+        "숭배",
+        "창조",
+        "전쟁",
+        "등장",
+        "거주",
+        "참여",
+        "발생",
+        "원인",
+        "선행",
+        "구성",
+        "반란",
+        "정신교환",
+        "사자",
+        "자손",
+        "적대",
+        "동시대",
+        "동일",
+        "언급",
+        "대상",
+        "사용"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-jF7z8VBn",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-rQh6DSpm",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "종족",
+        "장소",
+        "작품",
+        "사건",
+        "개체",
+        "유물",
+        "조직",
+        "개념"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-DUwrJE7i",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-sonYXYAD",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Reinforcing",
+        "Balancing",
+        "Vicious",
+        "Virtuous",
+        "Stabilizing",
+        "Stagnating"
+      ],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-85wqYqG6",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [
+    {
+      "_id": "elem-1YSuwVmS",
+      "attributes": {
+        "label": "쇼고스 창조",
+        "element type": "사건",
+        "description": "생체 노예 쇼고스를 제작",
+        "tags": [
+          "고대",
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-1oNSGbhM",
+      "attributes": {
+        "label": "우보 사스라(Ubo-Sathla)",
+        "element type": "개체",
+        "description": "지구 생명체들의 원초적 원형이자 원시 수프의 원천\n기어다니는 자줏빛 덩어리\n지구상의 모든 원시 생명의 근원이다.",
+        "tags": [
+          "외신"
+        ]
+      }
+    },
+    {
+      "_id": "elem-3BNoj6v3",
+      "attributes": {
+        "label": "남극 고대도시",
+        "element type": "장소",
+        "description": "엘더 씽의 도시",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-44UQCAyR",
+      "attributes": {
+        "label": "다곤(Dagon)",
+        "element type": "개체",
+        "description": "심해종족 딥원이 숭배하는 거대한 어버이 이자 군주\n크툴루를 섬기는 대사제 역할을 겸하며 지상 인간들과 교류해 기괴한 혼혈을 만듦",
+        "tags": [
+          "위대한 옛 존재",
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-4gMI38Sb",
+      "attributes": {
+        "label": "빛나는 트라페조헤드론",
+        "tags": [
+          "원전"
+        ],
+        "description": "암흑 속에서 니알라토텝의 화신을 불러내는 외계의 결정체 렌즈"
+      }
+    },
+    {
+      "_id": "elem-5XpECH1b",
+      "attributes": {
+        "label": "히프노스",
+        "element type": "개체",
+        "description": "꿈과 수면을 상징하는 존재\n그리스 신화헤서 유래한 아름다운 청년 형상의 고신\n인간이 꿈을 통해 금단의 영역에 다다르지 않도록 경고하고 수면의 미치광이들을 통제한다.",
+        "tags": [
+          "고신",
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-5pYOTNwn",
+      "attributes": {
+        "label": "사르나스의 멸망(Doon of Sarnath)",
+        "element type": "사건",
+        "description": "이브 종족을 학살한 인간도시 '사르나스'를 1000년 뒤 완전히 수중으로 침몰시켜 버린 복수사건"
+      }
+    },
+    {
+      "_id": "elem-6P103o13",
+      "attributes": {
+        "label": "드홀",
+        "element type": "종족",
+        "description": "지하를 이동하는 거대 생명체",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-8jUeE4Du",
+      "attributes": {
+        "label": "뱀 인간의 몰락",
+        "element type": "사건",
+        "description": "뱀 인간 문명이 쇠퇴하고 지구의 지배권을 잃은 사건",
+        "tags": [
+          "고대",
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-8nXBbOT8",
+      "attributes": {
+        "label": "암흑"
+      }
+    },
+    {
+      "_id": "elem-96UJ53lY",
+      "attributes": {
+        "label": "르뤼에",
+        "element type": "장소"
+      }
+    },
+    {
+      "_id": "elem-9x9ceYJH",
+      "attributes": {
+        "label": "림 샤이코스",
+        "element type": "개체",
+        "description": "시간과 죽음을 상징하는 존재",
+        "tags": [
+          "위대한 옛 존재",
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-A36LkNz9",
+      "attributes": {
+        "label": "포나코틱 사본",
+        "element type": "유물",
+        "description": "고대 지식을 담은 문헌",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-AB7MTR3O",
+      "attributes": {
+        "label": "뱀 인간",
+        "element type": "종족",
+        "description": "고대 지구를 지배했던 종족",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-BHQ94jDe",
+      "attributes": {
+        "label": "플라잉"
+      }
+    },
+    {
+      "_id": "elem-BMCduCKq",
+      "attributes": {
+        "label": "딥 원(Deep Ones)",
+        "element type": "종족",
+        "description": "바다 심해에 사는 종족. 크툴루와 다곤을 숭배한다.",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-BfQpubPe",
+      "attributes": {
+        "label": "인간",
+        "element type": "종족",
+        "description": "지구의 현생 지성 종족",
+        "tags": [
+          "원전",
+          "현대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-CCt8vjLD",
+      "attributes": {
+        "label": "우나우스프레클리헨 쿨텐"
+      }
+    },
+    {
+      "_id": "elem-CUEcwbeT",
+      "attributes": {
+        "label": "쇼고스 반란",
+        "element type": "사건",
+        "description": "쇼고스가 엘더 씽에게 반란",
+        "tags": [
+          "고대",
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-DWvtRa86",
+      "attributes": {
+        "label": "원전",
+        "element type": "개념",
+        "description": "H. P. 러브크래프트가 직접 집필한 작품 및 설정",
+        "tags": [
+          "원전",
+          "출처"
+        ]
+      }
+    },
+    {
+      "_id": "elem-DuYjN7x8",
+      "attributes": {
+        "label": "엘더 씽",
+        "element type": "종족",
+        "description": "지구 최초의 고등 문명을 이룬 외계 종족.",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-EkSiYtUP",
+      "attributes": {
+        "label": "미리 닌(Miri Nigri)",
+        "element type": "종족",
+        "description": "차우그나 포운이 양육하고 창조한 양서류 형상의 지상 하수인 종족"
+      }
+    },
+    {
+      "_id": "elem-FGAHBaf2",
+      "attributes": {
+        "label": "차토구아(Tsathoggua)",
+        "element type": "개체",
+        "description": "졸음과 어둠의 존재\n두꺼비와 박쥐, 털 많은 괴물이 섞인 형상\n지하 세계 '엔카이' 깊은곳에 누워 게으르게 지내지만, 자신에게 희생을 바치는 자에게 금단의 마법지식을 내어준다.",
+        "tags": [
+          "위대한 옛 존재",
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-FpGqbHCA",
+      "attributes": {
+        "label": "미스캐토닉 대학",
+        "element type": "장소",
+        "description": "신화를 연구하는 대학",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-FyxTUDUf",
+      "attributes": {
+        "label": "스타 스폰 봉인",
+        "element type": "사건",
+        "tags": [
+          "원전",
+          "고대"
+        ],
+        "description": "르뤼에가 바다 밑으로 가라앉으며 크툴루와 스타스폰이 함께 봉인된 사건"
+      }
+    },
+    {
+      "_id": "elem-GTDiM8Wn",
+      "attributes": {
+        "label": "엔카이(N'kai)",
+        "element type": "장소"
+      }
+    },
+    {
+      "_id": "elem-GnZb9mZI",
+      "attributes": {
+        "label": "검은 산양 자손들(Dark Young)",
+        "element type": "종족",
+        "description": "나무뿌리와 기괴한 입을 가진 슈브 니구라스의 괴물 자식들"
+      }
+    },
+    {
+      "_id": "elem-GqLFOFDP",
+      "attributes": {
+        "label": "크툴루의 부름",
+        "element type": "작품",
+        "description": "1925~1926년 조사\n1928년 발표"
+      }
+    },
+    {
+      "_id": "elem-GtRbcZPy",
+      "attributes": {
+        "label": "우주 이전",
+        "element type": "개념",
+        "description": "지구가 형성 되기 이전의 시기.\n외신과 우주적 존재들의 기원이 되는 시대",
+        "tags": [
+          "우주 이전",
+          "시대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-GwfbwrNt",
+      "attributes": {
+        "label": "슈브 니구라스(Shub-Niggurath)",
+        "element type": "개체",
+        "description": "숲속의 검은 염소\n무한한 풍요와 다산을 상징하는 외신\n수많은 기형적 괴물 자손들을 만들어낸다.",
+        "tags": [
+          "외신",
+          "원전",
+          "우주 이전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-H4VEMN9H",
+      "attributes": {
+        "label": "네크로노미콘",
+        "element type": "유물",
+        "description": "금단의 마도서",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-H638oku1",
+      "attributes": {
+        "label": "울타르(Ulthar)",
+        "element type": "장소",
+        "description": "고양이를 죽이는 것이 금지된 마을"
+      }
+    },
+    {
+      "_id": "elem-HTb4CgqA",
+      "attributes": {
+        "label": "인스머스",
+        "element type": "장소",
+        "description": "딥 원과 혼혈이 사는 마을",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-HV2CkGec",
+      "attributes": {
+        "label": "렝 고원",
+        "element type": "장소",
+        "description": "신비한 고원",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-HfdnhW7Q",
+      "attributes": {
+        "label": "플라잉 폴립 전쟁",
+        "element type": "사건",
+        "description": "이스와 폴립의 전쟁",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-HgXSmySl",
+      "attributes": {
+        "label": "엘더 씽의 지구 도착",
+        "element type": "사건",
+        "description": "엘더 씽이 지구에 정착",
+        "tags": [
+          "현대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-J2dn3GHo",
+      "attributes": {
+        "label": "미고",
+        "element type": "종족",
+        "description": "유고스에서 온 외계 종족\n외계 곤충형 종족인",
+        "tags": [
+          "원전",
+          "현대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-J83Hy1X4",
+      "attributes": {
+        "label": "크툴루의 지구 도착",
+        "element type": "사건",
+        "description": "크툴루와 스타 스폰의 도착",
+        "tags": [
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-JH9Zcfgw",
+      "attributes": {
+        "label": "츠아토그아의 자손",
+        "element type": "종족",
+        "description": "자트호그구아를 섬기는 종족",
+        "tags": [
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-JJ3c2C5r",
+      "attributes": {
+        "label": "아캄",
+        "element type": "장소",
+        "description": "미스캐토닉 대학이 있는 도시",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-JeCr9gjV",
+      "attributes": {
+        "label": "아자토스(Azathoth)",
+        "element type": "개체",
+        "description": "백치와 혼돈의 왕\n우주의 중심에서 맹목적으로 꿈을 꾸고 있는 만물의 근원\n아자토스가 깨어나면 우주 전체가 소멸함",
+        "tags": [
+          "외신",
+          "원전",
+          "우주 이전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-K9iUCkPR",
+      "attributes": {
+        "label": "엘더 씽 - 크툴루 전쟁",
+        "element type": "사건",
+        "description": "엘더 씽 세력과 크툴루 및 스타 스폰 세력이 지구의 패권을 두고 벌인 고대 전쟁",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-KjMHZPtZ",
+      "attributes": {
+        "label": "이스 종족의 지구 정착",
+        "element type": "사건",
+        "description": "정신을 지구로 이동",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-L4TIHzGb",
+      "attributes": {
+        "label": "르뤼에 침몰",
+        "element type": "사건",
+        "description": "도시가 바다에 가라앉음",
+        "tags": [
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-LrXtXq9m",
+      "attributes": {
+        "label": "후대 설정",
+        "element type": "개념",
+        "tags": [
+          "후대설정",
+          "출처"
+        ],
+        "description": "러브크래프트 사후 다른 작가들이 추가하거나 체계화한 설정"
+      }
+    },
+    {
+      "_id": "elem-MIjD3ngK",
+      "attributes": {
+        "label": "틴달로스"
+      }
+    },
+    {
+      "_id": "elem-NBzOZUnu",
+      "attributes": {
+        "label": "크툴루(Cthulhu)",
+        "element type": "개체",
+        "description": "릴리에에 잠들어있는 위대한 옛 존재\n오징어/문어의 머리에서 거대한 날개와 인간의 형상을 띤 기괴한 존재\n꿈과 텔레파시를 통해 인간에게 광기를 전파한다.",
+        "tags": [
+          "위대한 옛 존재",
+          "원전",
+          "현대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-NCdb4qpD",
+      "attributes": {
+        "label": "유카에(Yukhae)의 지하",
+        "element type": "장소",
+        "description": "태고의 지구 지하 깊은 곳\n보석으로 장식된 석판들이 둘러싼 웅덩이 속에 우보사스라가 웅크리고있음"
+      }
+    },
+    {
+      "_id": "elem-Nlkm9UWM",
+      "attributes": {
+        "label": "날개 달린 폴립"
+      }
+    },
+    {
+      "_id": "elem-OO8x6o8f",
+      "attributes": {
+        "label": "울타르의 신들",
+        "element type": "개체",
+        "description": "드림랜드의 카다스 성산에 거주하는 지상의 약한 신들\n인간의 형상과 유사\n니알라토텝의 보호를 받거나 고신들과 교류한다",
+        "tags": [
+          "고신",
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Od9uX8jp",
+      "attributes": {
+        "label": "카다스",
+        "element type": "장소",
+        "description": "꿈의 세계에 존재하는 도시\n꿈의 세계(드림랜드) 미지의 카다스 성에서 지상의 신들을 지배하고 있음",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-PGR5GEo5",
+      "attributes": {
+        "label": "트룰차(Tulzscha)",
+        "element type": "개체",
+        "description": "푸른 불꽃의 외신\n지하세계나 외신의 의식이 치러질 때 나타나는 열이없는 기괴한 푸른화염\n온 세상을 부패시킨다.",
+        "tags": [
+          "외신"
+        ]
+      }
+    },
+    {
+      "_id": "elem-PJa83YQz",
+      "attributes": {
+        "label": "쇼고스",
+        "element type": "종족",
+        "description": "엘더 씽이 만든 생체 노예",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-PbP7plCi",
+      "attributes": {
+        "label": "딥 원과 인간의 혼혈 시작",
+        "element type": "사건",
+        "description": "딥 원이 인간과 교배하여 인스머스 등지에서 혼혈 혈통이 형성되기 시작한 사건",
+        "tags": [
+          "원전",
+          "현대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Po2ynyZ5",
+      "attributes": {
+        "label": "크투가",
+        "element type": "개체",
+        "description": "불을 상징하는 존재",
+        "tags": [
+          "위대한 옛 존재",
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-PrSBtXSa",
+      "attributes": {
+        "label": "드 에르미스 미스테리스"
+      }
+    },
+    {
+      "_id": "elem-QC5dzrm9",
+      "attributes": {
+        "label": "위대한 옛 존재(Great Old Ones)",
+        "element type": "개념",
+        "description": "지구나 특정 행성에서 활동하는 강대한 존재들의 분류",
+        "tags": [
+          "위대한 옛 존재",
+          "분류"
+        ]
+      }
+    },
+    {
+      "_id": "elem-QTMggMvV",
+      "attributes": {
+        "label": "인간 문명",
+        "element type": "사건",
+        "description": "인류가 지구의 지배 종족으로 자리 잡고 문명을 형성한 시대\n대부분의 크툴루 신화 작품이 이 시기를 배경으로 한다",
+        "tags": [
+          "현대",
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-QYwfE7WF",
+      "attributes": {
+        "label": "에이본의 서",
+        "element type": "유물"
+      }
+    },
+    {
+      "_id": "elem-QwNhmOky",
+      "attributes": {
+        "label": "조그",
+        "element type": "종족",
+        "description": "꿈의 세계에 사는 생명체",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-R82NWkYZ",
+      "attributes": {
+        "label": "차르(Xar)",
+        "element type": "개체",
+        "description": "벌레 형태의 존재",
+        "tags": [
+          "위대한 옛 존재",
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-RUN8Grsi",
+      "attributes": {
+        "label": "남극 탐사",
+        "element type": "사건",
+        "description": "1930~1931년\n미스캐토닉 대학 탐사대가 남극의 엘더 씽 도시 발견",
+        "tags": [
+          "현대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-RiPJyVhI",
+      "attributes": {
+        "label": "위대한 종족 오브 이스",
+        "element type": "종족",
+        "description": "시간을 넘나드는 정신 종족",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-SQ4BVR4q",
+      "attributes": {
+        "label": "니알라토텝(Nyarlathotep)",
+        "element type": "개체",
+        "description": "인간과 가장 많이 접촉하는 외신\n기어다니는 혼돈. 외신들의 전령이자 의지를 대행하는자\n인간의 형상을 하고 지상에 내려와 사악한 지식을 전파하며 광기와 멸망을 즐긴다.",
+        "tags": [
+          "외신",
+          "원전",
+          "우주 이전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-STm7AWyH",
+      "attributes": {
+        "label": "즈스트룰",
+        "element type": "개체",
+        "description": "고대 우주 존재",
+        "tags": [
+          "위대한 옛 존재",
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-SicVZy0z",
+      "attributes": {
+        "label": "크툴루 교단",
+        "element type": "조직",
+        "description": "크툴루를 숭배하는 집단",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-TznGTP6s",
+      "attributes": {
+        "label": "인스머스 사건",
+        "element type": "사건",
+        "description": "1927~1928년 경\n인스머스의 비밀이 드러남",
+        "tags": [
+          "현대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-UrURiwGx",
+      "attributes": {
+        "label": "르뤼에 건설",
+        "element type": "사건",
+        "description": "해저 도시 르뤼에 건설",
+        "tags": [
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-UuNfg9a5",
+      "attributes": {
+        "label": "정신교환",
+        "element type": "개념",
+        "description": "위대한 종족 오브 이스가 자신의 정신을 다른 시대와 종족의 육체로 옮기는 능력\n육체는 서로 교환되며, 교환된 존재는 상대 시대의 지식을 습득하게 된다.",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-V8Ixfm5e",
+      "attributes": {
+        "label": "골 고로스",
+        "element type": "개체",
+        "description": "시간을 관장하는 존재",
+        "tags": [
+          "위대한 옛 존재",
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Vl0BQUee",
+      "attributes": {
+        "label": "인스머스의 그림자",
+        "element type": "작품",
+        "description": "딥 원과 혼혈 이야기",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-WE353FLE",
+      "attributes": {
+        "label": "미지에서 온 색채",
+        "element type": "작품",
+        "description": "미지의 존재를 다룸",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-WJSDbFGk",
+      "attributes": {
+        "label": "이안호"
+      }
+    },
+    {
+      "_id": "elem-WzPzQRYa",
+      "attributes": {
+        "label": "지구의 원시 생명체들",
+        "element type": "종족",
+        "description": "우보 사스라의 몸에서 끊임없이 분출되고 분열된 원시 세포 덩어리들\n지구 생명체의 시작"
+      }
+    },
+    {
+      "_id": "elem-XRMGNe0c",
+      "attributes": {
+        "label": "크사누스(Kthanid)",
+        "element type": "개체",
+        "description": "크툴루의 형제이지만 선한 마음을 가진 고신\n눈동자가 진주빛으로 빛나며 크툴루와 위대한 옛 존재들을 봉인하는 데 앞장 선 고신들의 군주",
+        "tags": [
+          "고신",
+          "후대설정"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Y6KB6Feq",
+      "attributes": {
+        "label": "히드라",
+        "element type": "개체",
+        "description": "딥 원이 여왕으로 숭배하는 존재",
+        "tags": [
+          "위대한 옛 존재",
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-Z2LexF8d",
+      "attributes": {
+        "label": "플라잉 폴립",
+        "element type": "종족",
+        "description": "이스와 전쟁한 고대 종족",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-ZDR0AeV0",
+      "attributes": {
+        "label": "츠"
+      }
+    },
+    {
+      "_id": "elem-ZTYFWJ0R",
+      "attributes": {
+        "label": "요그 소토스(Yog-Sothoth)",
+        "element type": "개체",
+        "description": "시간과 공간 그 자체인 외신\n시공간의 문 이자 열쇠\n과거, 현재, 미래가 모두 하나의 존재 안에 결합해있으며 모든 지식과 차원을 통달한 존재",
+        "tags": [
+          "외신",
+          "원전",
+          "우주 이전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-ZVLBM8Rl",
+      "attributes": {
+        "label": "외신(Outer Gods)",
+        "element type": "개념",
+        "description": "우주적 원리와 법칙 그 자체\n우주 전체의 물리 법칙 이자 개념 그 자체인 최상위 존재들\n이성이나 인격이 없거나 인간의 이해를 뛰어넘음",
+        "tags": [
+          "외신",
+          "분류"
+        ]
+      }
+    },
+    {
+      "_id": "elem-ZXz1LyHJ",
+      "attributes": {
+        "label": "픽먼 실종 사건"
+      }
+    },
+    {
+      "_id": "elem-aX3QibEO",
+      "attributes": {
+        "label": "던위치 사건",
+        "element type": "사건",
+        "description": "요그 소토스의 자손 출현",
+        "tags": [
+          "현대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-aveZSAHB",
+      "attributes": {
+        "label": "어둠 속의 속삭임",
+        "element type": "작품",
+        "description": "미고를 다룸",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-bGS2YMwt",
+      "attributes": {
+        "label": "조스 오므그",
+        "element type": "개체",
+        "description": "심해와 연관된 존재",
+        "tags": [
+          "위대한 옛 존재",
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-cam24mLC",
+      "attributes": {
+        "label": "미스카토닉 탐사"
+      }
+    },
+    {
+      "_id": "elem-dk58guT2",
+      "attributes": {
+        "label": "축제(The Festival)",
+        "element type": "작품",
+        "description": "러브크래프트의 단편"
+      }
+    },
+    {
+      "_id": "elem-dyfrWtYA",
+      "attributes": {
+        "label": "에이본(Eibon)",
+        "element type": "개체",
+        "description": "고대 하이퍼보리아의 대마법사 에이본\n차토구아를 섬기며 지식을 얻음"
+      }
+    },
+    {
+      "_id": "elem-e1vQrIYG",
+      "attributes": {
+        "label": "크툴루 각성 시도",
+        "element type": "사건",
+        "description": "르뤼에가 일시적으로 떠오르며 크툴루가 깨어나 인류에게 정신적 영향을 미친 사건",
+        "tags": [
+          "원전",
+          "현대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-eqPEVB4p",
+      "attributes": {
+        "label": "스타 스폰",
+        "element type": "종족",
+        "description": "크툴루와 함께 온 권속\n크틀루를 따르는 권속",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-fJiFhOxh",
+      "attributes": {
+        "label": "고대",
+        "element type": "개념",
+        "tags": [
+          "고대",
+          "시대"
+        ],
+        "description": "지구 초기부터 인류 문명이 등장하기 이전까지의 시대.\n엘더 씽, 이스 종족, 크툴루 등이 활동한 시기."
+      }
+    },
+    {
+      "_id": "elem-fXUmqFYg",
+      "attributes": {
+        "label": "다올로스(Daoloth)"
+      }
+    },
+    {
+      "_id": "elem-h7hAO02P",
+      "attributes": {
+        "label": "인간 광신도",
+        "element type": "조직",
+        "tags": [
+          "현대",
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-haNoF7xU",
+      "attributes": {
+        "label": "꿈의 세계",
+        "element type": "장소",
+        "description": "인간의 정신이 수면 중에 도달하는 이계 영역"
+      }
+    },
+    {
+      "_id": "elem-huvUosk9",
+      "attributes": {
+        "label": "노덴스",
+        "element type": "개체",
+        "description": "외신에 맞서는 신격 존재. \n대심해의 사냥꾼 이나 은빛 수레를 타는 노인의 형상을 한 고신\n니알라토텝이나 크툴루같은 외신/위대한 옛 존재들을 사냥하며, 드림랜드에서 인간을 돕기도 한다.",
+        "tags": [
+          "고신",
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-iccGgWQB",
+      "attributes": {
+        "label": "우보 사스라의 석판",
+        "element type": "유물",
+        "description": "하이퍼보리아의 마법사 에이본이 우보 사스라와 고대 석판의 비밀에 대해 기록함"
+      }
+    },
+    {
+      "_id": "elem-j1qQ3vJy",
+      "attributes": {
+        "label": "스타리 위즈덤 교단",
+        "description": "니알라토텝의 한 화신인 '어둠의 방황자'를 섬기는 광신도 집단"
+      }
+    },
+    {
+      "_id": "elem-jNbjYBJp",
+      "attributes": {
+        "label": "현대",
+        "element type": "개념",
+        "tags": [
+          "현대",
+          "시대"
+        ],
+        "description": "인류 문명이 형성된 이후의 시대.\n러브크래프트 작품 대부분의 사건이 발생하는 시기"
+      }
+    },
+    {
+      "_id": "elem-jkMo5Sr6",
+      "attributes": {
+        "label": "남극 고대도시 건설",
+        "element type": "사건",
+        "description": "엘더 씽이 지구 정착 후 남극에 거대한 도시를 건설하고 문명을 발전시킨 사건",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-k0zdkKWk",
+      "attributes": {
+        "label": "킹스포트 지하동굴",
+        "element type": "장소",
+        "description": "킹스포트 마을 밑 지하 깊은 곳에 위치한 비밀 의식의 장소"
+      }
+    },
+    {
+      "_id": "elem-kIGuqvkl",
+      "attributes": {
+        "label": "바스테트",
+        "element type": "개체",
+        "description": "고양이의 여신\n이집트 신화에서 유래한 고신\n드림랜드의 고양이들과 울타르(Ulthar)의 고양이들을 보호하며 외신의 침복들로부터 이들을 지킨다.",
+        "tags": [
+          "고신",
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-kpZTyUmw",
+      "attributes": {
+        "label": "엘더 사인",
+        "element type": "유물",
+        "description": "고대 존재를 막는 상징",
+        "tags": [
+          "후대설정"
+        ]
+      }
+    },
+    {
+      "_id": "elem-lNrVqBjF",
+      "attributes": {
+        "label": "다곤 비밀 교단(Esoteric Order of Dagon)",
+        "element type": "조직",
+        "description": "인스머스의 비밀결사",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-mLqN1KnV",
+      "attributes": {
+        "label": "미래",
+        "element type": "개념",
+        "tags": [
+          "미래",
+          "시대"
+        ],
+        "description": "현재 작품에서 예견되거나 암시된 미래의 시대"
+      }
+    },
+    {
+      "_id": "elem-nqT0VVD2",
+      "attributes": {
+        "label": "압호스"
+      }
+    },
+    {
+      "_id": "elem-nyJ47amS",
+      "attributes": {
+        "label": "구울",
+        "element type": "종족",
+        "description": "시체를 먹는 지하 종족",
+        "tags": [
+          "원전",
+          "현대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-oWVNddBD",
+      "attributes": {
+        "label": "허버트 웨스트의 실험"
+      }
+    },
+    {
+      "_id": "elem-pDPvOaNu",
+      "attributes": {
+        "label": "차우그나 포운(Chaugnar Faugn)",
+        "element type": "개체",
+        "description": "선사 인간 부족의 숭배를 받는 존재\n거대한 코끼리의 형상과 흡혈 기구를 가진 기괴한 석상의 모습\n오랜 세월 석상 처럼 웅크려 있다가 피를 원할 때 움직여 희생자의 피를 말려버린다.",
+        "tags": [
+          "위대한 옛 존재",
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-pNx08FV1",
+      "attributes": {
+        "label": "이름 없는 안개"
+      }
+    },
+    {
+      "_id": "elem-qZrotQSB",
+      "attributes": {
+        "label": "시간의 그림자",
+        "element type": "작품",
+        "description": "이스 종족을 다룸",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-qhZbRjKd",
+      "attributes": {
+        "label": "검은 날개 종족",
+        "element type": "종족",
+        "description": "렝과 관련된 종족",
+        "tags": [
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-qjtPpfu0",
+      "attributes": {
+        "label": "하스터(Hastur)",
+        "tags": [
+          "위대한 옛 존재",
+          "후대설정",
+          "고대"
+        ],
+        "element type": "개체",
+        "description": "노란 옷의 왕으로 알려진 존재\n'말해서는 안 될 자' 이자 '황색의 왕'\n금지된 연극과 예술을 통해 인간의 정신을 썩게 만들고 광기로 이끈다."
+      }
+    },
+    {
+      "_id": "elem-r1TLfemc",
+      "attributes": {
+        "label": "아브호스",
+        "element type": "개체",
+        "description": "원시 생명의 근원으로 여겨지는 존재",
+        "tags": [
+          "위대한 옛 존재",
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-rNWKCrrz",
+      "attributes": {
+        "label": "고신",
+        "element type": "개념",
+        "description": "외신, 위대한 옛 존재와 대립하거나 독자적인 위치를 가진 신격 존재\n실재 신화(기독교, 이집트, 켈트신화 등)의 신들이나 꿈의 세계 신격에서 유래함",
+        "tags": [
+          "고신",
+          "분류"
+        ]
+      }
+    },
+    {
+      "_id": "elem-rgMncuQ1",
+      "attributes": {
+        "label": "은열쇠",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-seITA74i",
+      "attributes": {
+        "label": "카르코사(Carcosa)",
+        "element type": "장소",
+        "description": "고대 도시"
+      }
+    },
+    {
+      "_id": "elem-seVQvdmV",
+      "attributes": {
+        "label": "TRPG",
+        "element type": "개념",
+        "description": "게임 및 RPG에서 확장된 설정",
+        "tags": [
+          "출처",
+          "TRPG"
+        ]
+      }
+    },
+    {
+      "_id": "elem-t9OKb5Gc",
+      "attributes": {
+        "label": "보크루그(Bokrug)",
+        "element type": "개체",
+        "description": "꿈의 세계의 이브(Ib) 도시 잔해에 거주하는 대형 도마뱀\n수중 무척추 형상의 신\n자신을 섬기던 이브 종족이 인간들에게 학살당하자 완벽한 복수를 감행했다",
+        "tags": [
+          "위대한 옛 존재",
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-uNuqtDH8",
+      "attributes": {
+        "label": "노인종"
+      }
+    },
+    {
+      "_id": "elem-vEtNAJzT",
+      "attributes": {
+        "label": "이타카(Ithaqua)",
+        "element type": "개체",
+        "description": "북풍과 추위를 상징하는 존재\n북극과 얼어붙은 동토를 방황하며 인간을 납치해 희생양으로 삼거나 공중에서 떨어뜨려 얼려버린다.\n북극(동토)에 거주하며, 웬디고(Wendigo)와 동일한 전설",
+        "tags": [
+          "위대한 옛 존재",
+          "후대설정",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-vNz8XyyK",
+      "attributes": {
+        "label": "달짐승",
+        "element type": "종족",
+        "description": "꿈의 세계에 사는 생명체",
+        "tags": [
+          "원전",
+          "고대"
+        ]
+      }
+    },
+    {
+      "_id": "elem-vPKrToTj",
+      "attributes": {
+        "label": "던위치",
+        "element type": "장소",
+        "description": "요그 소토스 사건의 무대",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-veiskIU5",
+      "attributes": {
+        "label": "차원 사냥개"
+      }
+    },
+    {
+      "_id": "elem-ybe66qCe",
+      "attributes": {
+        "label": "던위치의 공포",
+        "element type": "작품",
+        "description": "요그 소토스의 자손 이야기",
+        "tags": [
+          "원전"
+        ]
+      }
+    },
+    {
+      "_id": "elem-ynQq2Muj",
+      "attributes": {
+        "label": "사르나스(Sarnath)",
+        "element type": "장소"
+      }
+    },
+    {
+      "_id": "elem-zKetR498",
+      "attributes": {
+        "label": "황색의 인(Yellow Sign)",
+        "element type": "유물"
+      }
+    },
+    {
+      "_id": "elem-zLSK6hGW",
+      "attributes": {
+        "label": "미스카토닉 대학 조사단"
+      }
+    },
+    {
+      "_id": "elem-zxvCdBA9",
+      "attributes": {
+        "label": "광기의 산맥에서",
+        "element type": "작품",
+        "description": "엘더 씽과 쇼고스를 다룸",
+        "tags": [
+          "원전"
+        ]
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-0CbJrVTH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "발생"
+      },
+      "from": "elem-3BNoj6v3",
+      "to": "elem-CUEcwbeT"
+    },
+    {
+      "_id": "conn-12IbSmMa",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-DWvtRa86",
+      "to": "elem-GqLFOFDP"
+    },
+    {
+      "_id": "conn-16AoejfI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-RUN8Grsi",
+      "to": "elem-zxvCdBA9"
+    },
+    {
+      "_id": "conn-1HiTW3mr",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "언급"
+      },
+      "from": "elem-PGR5GEo5",
+      "to": "elem-k0zdkKWk"
+    },
+    {
+      "_id": "conn-1VnpcUWt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "정신교환"
+      },
+      "from": "elem-RiPJyVhI",
+      "to": "elem-AB7MTR3O"
+    },
+    {
+      "_id": "conn-1tMjaP2X",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-QC5dzrm9",
+      "to": "elem-44UQCAyR"
+    },
+    {
+      "_id": "conn-2QEDNqDX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-ybe66qCe",
+      "to": "elem-ZTYFWJ0R"
+    },
+    {
+      "_id": "conn-33u3xOh7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-QTMggMvV",
+      "to": "elem-PbP7plCi"
+    },
+    {
+      "_id": "conn-37yPJtSR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "정신교환"
+      },
+      "from": "elem-RiPJyVhI",
+      "to": "elem-BfQpubPe"
+    },
+    {
+      "_id": "conn-3ZpUxAvy",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-GqLFOFDP",
+      "to": "elem-SicVZy0z"
+    },
+    {
+      "_id": "conn-5026VQNx",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "거주"
+      },
+      "from": "elem-qjtPpfu0",
+      "to": "elem-seITA74i"
+    },
+    {
+      "_id": "conn-5eN2VRsF",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "발생"
+      },
+      "from": "elem-96UJ53lY",
+      "to": "elem-L4TIHzGb"
+    },
+    {
+      "_id": "conn-6a5l0YMI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "거주"
+      },
+      "from": "elem-5XpECH1b",
+      "to": "elem-haNoF7xU"
+    },
+    {
+      "_id": "conn-6gMKBFP0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "참여"
+      },
+      "from": "elem-NBzOZUnu",
+      "to": "elem-K9iUCkPR"
+    },
+    {
+      "_id": "conn-7tSjh9Xy",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-qhZbRjKd",
+      "to": "elem-seITA74i"
+    },
+    {
+      "_id": "conn-7x4jjekP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "거주"
+      },
+      "from": "elem-BfQpubPe",
+      "to": "elem-HTb4CgqA"
+    },
+    {
+      "_id": "conn-8BieVAAh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "구성"
+      },
+      "from": "elem-BMCduCKq",
+      "to": "elem-lNrVqBjF"
+    },
+    {
+      "_id": "conn-8fhaXFfU",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "참여"
+      },
+      "from": "elem-jkMo5Sr6",
+      "to": "elem-DuYjN7x8"
+    },
+    {
+      "_id": "conn-8jamv7tm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t9OKb5Gc",
+      "to": "elem-5pYOTNwn"
+    },
+    {
+      "_id": "conn-9A4TBYmb",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-zxvCdBA9",
+      "to": "elem-PJa83YQz"
+    },
+    {
+      "_id": "conn-9HOZ2zdk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "거주"
+      },
+      "from": "elem-HTb4CgqA",
+      "to": "elem-44UQCAyR"
+    },
+    {
+      "_id": "conn-9X9iMppu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "숭배"
+      },
+      "from": "elem-SicVZy0z",
+      "to": "elem-NBzOZUnu"
+    },
+    {
+      "_id": "conn-9ahfDMqD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-qZrotQSB",
+      "to": "elem-RiPJyVhI"
+    },
+    {
+      "_id": "conn-9g5pczYl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "사자",
+        "description": "사고와 의지가 없는 아자토스의 뜻과 의지를 대신 실행하고 다니는 대리인/정령"
+      },
+      "from": "elem-SQ4BVR4q",
+      "to": "elem-JeCr9gjV"
+    },
+    {
+      "_id": "conn-AIed4eUk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-e1vQrIYG",
+      "to": "elem-GqLFOFDP"
+    },
+    {
+      "_id": "conn-ASmHH3Cv",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "언급"
+      },
+      "from": "elem-1oNSGbhM",
+      "to": "elem-QYwfE7WF"
+    },
+    {
+      "_id": "conn-Af56HFRE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-rNWKCrrz",
+      "to": "elem-huvUosk9"
+    },
+    {
+      "_id": "conn-Aooo7rWs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "참여"
+      },
+      "from": "elem-eqPEVB4p",
+      "to": "elem-FyxTUDUf"
+    },
+    {
+      "_id": "conn-BO0mD7WB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-Vl0BQUee",
+      "to": "elem-BMCduCKq"
+    },
+    {
+      "_id": "conn-BXFN7Oa2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "거주"
+      },
+      "from": "elem-1oNSGbhM",
+      "to": "elem-NCdb4qpD"
+    },
+    {
+      "_id": "conn-BqwGGXuf",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-Vl0BQUee",
+      "to": "elem-44UQCAyR"
+    },
+    {
+      "_id": "conn-Bu5rGhnr",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "거주"
+      },
+      "from": "elem-lNrVqBjF",
+      "to": "elem-HTb4CgqA"
+    },
+    {
+      "_id": "conn-CY3DTLlq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "동시대"
+      },
+      "from": "elem-8jUeE4Du",
+      "to": "elem-RiPJyVhI"
+    },
+    {
+      "_id": "conn-EZwmESU6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-PGR5GEo5",
+      "to": "elem-ZVLBM8Rl"
+    },
+    {
+      "_id": "conn-FBfNP1BZ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {},
+      "from": "elem-DuYjN7x8",
+      "to": "elem-K9iUCkPR"
+    },
+    {
+      "_id": "conn-FF8mDwbE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-LrXtXq9m",
+      "to": "elem-V8Ixfm5e"
+    },
+    {
+      "_id": "conn-FIaDh6DY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-zxvCdBA9",
+      "to": "elem-CUEcwbeT"
+    },
+    {
+      "_id": "conn-G0WE2zi4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "언급"
+      },
+      "from": "elem-GqLFOFDP",
+      "to": "elem-H4VEMN9H"
+    },
+    {
+      "_id": "conn-GLtcG79z",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "참여"
+      },
+      "from": "elem-NBzOZUnu",
+      "to": "elem-J83Hy1X4"
+    },
+    {
+      "_id": "conn-GVJnsGx4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "구성"
+      },
+      "from": "elem-BfQpubPe",
+      "to": "elem-h7hAO02P"
+    },
+    {
+      "_id": "conn-GmPLm1sX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "대상"
+      },
+      "from": "elem-UuNfg9a5",
+      "to": "elem-AB7MTR3O"
+    },
+    {
+      "_id": "conn-H6hssYFi",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-QC5dzrm9",
+      "to": "elem-qjtPpfu0"
+    },
+    {
+      "_id": "conn-I30GBF2e",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "거주"
+      },
+      "from": "elem-NBzOZUnu",
+      "to": "elem-96UJ53lY"
+    },
+    {
+      "_id": "conn-I69F8g0C",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "사용"
+      },
+      "from": "elem-SQ4BVR4q",
+      "to": "elem-4gMI38Sb"
+    },
+    {
+      "_id": "conn-IZu0Yi18",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-L4TIHzGb",
+      "to": "elem-KjMHZPtZ"
+    },
+    {
+      "_id": "conn-IfxyeGFZ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-jNbjYBJp",
+      "to": "elem-QTMggMvV"
+    },
+    {
+      "_id": "conn-J4XSqzn6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-qZrotQSB",
+      "to": "elem-KjMHZPtZ"
+    },
+    {
+      "_id": "conn-JLgt7Vxx",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-ZVLBM8Rl",
+      "to": "elem-SQ4BVR4q"
+    },
+    {
+      "_id": "conn-JUFszSsf",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-QTMggMvV",
+      "to": "elem-TznGTP6s"
+    },
+    {
+      "_id": "conn-JXB9xM0j",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-PbP7plCi",
+      "to": "elem-lNrVqBjF"
+    },
+    {
+      "_id": "conn-Jh557axV",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "발생"
+      },
+      "from": "elem-PbP7plCi",
+      "to": "elem-HTb4CgqA"
+    },
+    {
+      "_id": "conn-K28pnzRu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-J83Hy1X4",
+      "to": "elem-UrURiwGx"
+    },
+    {
+      "_id": "conn-KETpnqi1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "발생"
+      },
+      "from": "elem-96UJ53lY",
+      "to": "elem-UrURiwGx"
+    },
+    {
+      "_id": "conn-KUFBZqYP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "전쟁"
+      },
+      "from": "elem-DuYjN7x8",
+      "to": "elem-J2dn3GHo"
+    },
+    {
+      "_id": "conn-LEbap5GX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-HfdnhW7Q",
+      "to": "elem-8jUeE4Du"
+    },
+    {
+      "_id": "conn-MtKANpCo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-TznGTP6s",
+      "to": "elem-RUN8Grsi"
+    },
+    {
+      "_id": "conn-MtZbGyHm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "숭배"
+      },
+      "from": "elem-BMCduCKq",
+      "to": "elem-NBzOZUnu"
+    },
+    {
+      "_id": "conn-N6z44bj0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-pDPvOaNu",
+      "to": "elem-EkSiYtUP"
+    },
+    {
+      "_id": "conn-NDh3MNtA",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GwfbwrNt",
+      "to": "elem-GnZb9mZI"
+    },
+    {
+      "_id": "conn-NIB8tAiX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "참여"
+      },
+      "from": "elem-e1vQrIYG",
+      "to": "elem-NBzOZUnu"
+    },
+    {
+      "_id": "conn-NWOPvoan",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-LrXtXq9m",
+      "to": "elem-qjtPpfu0"
+    },
+    {
+      "_id": "conn-Nw6VUnRS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "거주"
+      },
+      "from": "elem-DuYjN7x8",
+      "to": "elem-3BNoj6v3"
+    },
+    {
+      "_id": "conn-OHJw6oQI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "동일"
+      },
+      "from": "elem-L4TIHzGb",
+      "to": "elem-FyxTUDUf"
+    },
+    {
+      "_id": "conn-OKa5ZC7I",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-NBzOZUnu",
+      "to": "elem-QC5dzrm9"
+    },
+    {
+      "_id": "conn-OXiVoagI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "참여"
+      },
+      "from": "elem-BMCduCKq",
+      "to": "elem-PbP7plCi"
+    },
+    {
+      "_id": "conn-OiiIHUhV",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-qZrotQSB",
+      "to": "elem-HfdnhW7Q"
+    },
+    {
+      "_id": "conn-OjTbDnQ8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-Vl0BQUee",
+      "to": "elem-HTb4CgqA"
+    },
+    {
+      "_id": "conn-PT6ueoF0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "숭배"
+      },
+      "from": "elem-qhZbRjKd",
+      "to": "elem-qjtPpfu0"
+    },
+    {
+      "_id": "conn-PfHsJWji",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "소속"
+      },
+      "from": "elem-eqPEVB4p",
+      "to": "elem-NBzOZUnu"
+    },
+    {
+      "_id": "conn-Pq657JeT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "숭배"
+      },
+      "from": "elem-lNrVqBjF",
+      "to": "elem-44UQCAyR"
+    },
+    {
+      "_id": "conn-PublsHlM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "참여"
+      },
+      "from": "elem-eqPEVB4p",
+      "to": "elem-K9iUCkPR"
+    },
+    {
+      "_id": "conn-PxuEwfjY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-GtRbcZPy",
+      "to": "elem-HgXSmySl"
+    },
+    {
+      "_id": "conn-Q1y9SZmE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-LrXtXq9m",
+      "to": "elem-Y6KB6Feq"
+    },
+    {
+      "_id": "conn-QNAfeuYc",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "원인"
+      },
+      "from": "elem-1YSuwVmS",
+      "to": "elem-CUEcwbeT"
+    },
+    {
+      "_id": "conn-QZKMLIam",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-LrXtXq9m",
+      "to": "elem-Po2ynyZ5"
+    },
+    {
+      "_id": "conn-QzR6mw7U",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "거주"
+      },
+      "from": "elem-BMCduCKq",
+      "to": "elem-HTb4CgqA"
+    },
+    {
+      "_id": "conn-RU4rT1rW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-aX3QibEO",
+      "to": "elem-ybe66qCe"
+    },
+    {
+      "_id": "conn-RgBCTFlw",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장",
+        "description": "금단의 마도서 네크로노미콘에 요그 소토스를 소환하거나 마주하는 주문이 수록됨"
+      },
+      "from": "elem-H4VEMN9H",
+      "to": "elem-ZTYFWJ0R"
+    },
+    {
+      "_id": "conn-Rjwkwhp1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "발생"
+      },
+      "from": "elem-FyxTUDUf",
+      "to": "elem-96UJ53lY"
+    },
+    {
+      "_id": "conn-SfKah3Yb",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "발생"
+      },
+      "from": "elem-3BNoj6v3",
+      "to": "elem-1YSuwVmS"
+    },
+    {
+      "_id": "conn-TMXq0sXg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "소속"
+      },
+      "from": "elem-h7hAO02P",
+      "to": "elem-SicVZy0z"
+    },
+    {
+      "_id": "conn-TxVKjmni",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-jkMo5Sr6",
+      "to": "elem-1YSuwVmS"
+    },
+    {
+      "_id": "conn-UJnZbJk7",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-ZVLBM8Rl",
+      "to": "elem-GwfbwrNt"
+    },
+    {
+      "_id": "conn-UNfxLkFh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "발생"
+      },
+      "from": "elem-e1vQrIYG",
+      "to": "elem-96UJ53lY"
+    },
+    {
+      "_id": "conn-Us0Y0Ug3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "창조"
+      },
+      "from": "elem-rNWKCrrz",
+      "to": "elem-kpZTyUmw"
+    },
+    {
+      "_id": "conn-VBuVmGPG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-rNWKCrrz",
+      "to": "elem-5XpECH1b"
+    },
+    {
+      "_id": "conn-VDXpy9xm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-zxvCdBA9",
+      "to": "elem-3BNoj6v3"
+    },
+    {
+      "_id": "conn-Vr9l1QRH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-ZVLBM8Rl",
+      "to": "elem-ZTYFWJ0R"
+    },
+    {
+      "_id": "conn-VuTHC02g",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "숭배"
+      },
+      "from": "elem-BMCduCKq",
+      "to": "elem-44UQCAyR"
+    },
+    {
+      "_id": "conn-VwYhftdY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-PbP7plCi",
+      "to": "elem-aX3QibEO"
+    },
+    {
+      "_id": "conn-VxMPnbMj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-DWvtRa86",
+      "to": "elem-qZrotQSB"
+    },
+    {
+      "_id": "conn-WS9dju11",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "창조"
+      },
+      "from": "elem-DuYjN7x8",
+      "to": "elem-PJa83YQz"
+    },
+    {
+      "_id": "conn-X9rw3YA5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-PGR5GEo5",
+      "to": "elem-H4VEMN9H"
+    },
+    {
+      "_id": "conn-XJcjFy2U",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-aX3QibEO",
+      "to": "elem-TznGTP6s"
+    },
+    {
+      "_id": "conn-Xw4CW1gj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-Vl0BQUee",
+      "to": "elem-Y6KB6Feq"
+    },
+    {
+      "_id": "conn-YJyyh4bf",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "사용",
+        "description": "궁극의 문을 열어 요그 소토스와 접촉하게 해주는 고대 유물"
+      },
+      "from": "elem-ZTYFWJ0R",
+      "to": "elem-rgMncuQ1"
+    },
+    {
+      "_id": "conn-YfSXNqmV",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-1oNSGbhM",
+      "to": "elem-ZVLBM8Rl"
+    },
+    {
+      "_id": "conn-Z8IsUEea",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "숭배",
+        "description": "'말해서는 안 될 자' 라고 불리움"
+      },
+      "from": "elem-h7hAO02P",
+      "to": "elem-qjtPpfu0"
+    },
+    {
+      "_id": "conn-ZUB2t055",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-Vl0BQUee",
+      "to": "elem-PbP7plCi"
+    },
+    {
+      "_id": "conn-ZcaCjuCg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-rNWKCrrz",
+      "to": "elem-kIGuqvkl"
+    },
+    {
+      "_id": "conn-ZpVCTgkl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "숭배"
+      },
+      "from": "elem-GwfbwrNt",
+      "to": "elem-J2dn3GHo"
+    },
+    {
+      "_id": "conn-aEuXoKvp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "적대"
+      },
+      "from": "elem-huvUosk9",
+      "to": "elem-SQ4BVR4q"
+    },
+    {
+      "_id": "conn-aa3SuOoH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-GqLFOFDP",
+      "to": "elem-96UJ53lY"
+    },
+    {
+      "_id": "conn-amgChtl8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-aveZSAHB",
+      "to": "elem-J2dn3GHo"
+    },
+    {
+      "_id": "conn-ayFI03hR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-zxvCdBA9",
+      "to": "elem-1YSuwVmS"
+    },
+    {
+      "_id": "conn-bDf4X2rl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-TznGTP6s",
+      "to": "elem-Vl0BQUee"
+    },
+    {
+      "_id": "conn-bdV8rs7z",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "전쟁"
+      },
+      "from": "elem-DuYjN7x8",
+      "to": "elem-NBzOZUnu"
+    },
+    {
+      "_id": "conn-bl3g8lWs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-RUN8Grsi",
+      "to": "elem-e1vQrIYG"
+    },
+    {
+      "_id": "conn-dbdIvWOY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-KjMHZPtZ",
+      "to": "elem-HfdnhW7Q"
+    },
+    {
+      "_id": "conn-dfj1YQBf",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "반란"
+      },
+      "from": "elem-PJa83YQz",
+      "to": "elem-DuYjN7x8"
+    },
+    {
+      "_id": "conn-dfuStpA8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-QTMggMvV",
+      "to": "elem-PbP7plCi"
+    },
+    {
+      "_id": "conn-e2UEZEQZ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "자손",
+        "description": "인간 여성과의 사이에서 태어난 기괴한 자손들"
+      },
+      "from": "elem-ZTYFWJ0R",
+      "to": "elem-ybe66qCe"
+    },
+    {
+      "_id": "conn-eYyaGTRC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-ybe66qCe",
+      "to": "elem-vPKrToTj"
+    },
+    {
+      "_id": "conn-ew5dN2FD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "사용"
+      },
+      "from": "elem-UuNfg9a5",
+      "to": "elem-RiPJyVhI"
+    },
+    {
+      "_id": "conn-f8uxlLN8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-qZrotQSB",
+      "to": "elem-Z2LexF8d"
+    },
+    {
+      "_id": "conn-g71WQzri",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "언급"
+      },
+      "from": "elem-GwfbwrNt",
+      "to": "elem-QYwfE7WF"
+    },
+    {
+      "_id": "conn-gB9n73ld",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "적대"
+      },
+      "from": "elem-NBzOZUnu",
+      "to": "elem-qjtPpfu0"
+    },
+    {
+      "_id": "conn-gK6SzB1w",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "거주"
+      },
+      "from": "elem-FGAHBaf2",
+      "to": "elem-GTDiM8Wn"
+    },
+    {
+      "_id": "conn-hO2OMx3M",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "숭배"
+      },
+      "from": "elem-BMCduCKq",
+      "to": "elem-Y6KB6Feq"
+    },
+    {
+      "_id": "conn-iW3FaShX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "참여"
+      },
+      "from": "elem-BfQpubPe",
+      "to": "elem-PbP7plCi"
+    },
+    {
+      "_id": "conn-ikwvC5Fq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-UrURiwGx",
+      "to": "elem-K9iUCkPR"
+    },
+    {
+      "_id": "conn-jiJ5TJgx",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "원인"
+      },
+      "from": "elem-K9iUCkPR",
+      "to": "elem-L4TIHzGb"
+    },
+    {
+      "_id": "conn-m5AbRBw0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-CUEcwbeT",
+      "to": "elem-J83Hy1X4"
+    },
+    {
+      "_id": "conn-m9AMkSJH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-HgXSmySl",
+      "to": "elem-jkMo5Sr6"
+    },
+    {
+      "_id": "conn-mGRPdgPY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-DWvtRa86",
+      "to": "elem-ybe66qCe"
+    },
+    {
+      "_id": "conn-mGpqo7ew",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-qZrotQSB",
+      "to": "elem-UuNfg9a5"
+    },
+    {
+      "_id": "conn-mWoBsB3Z",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-ybe66qCe",
+      "to": "elem-H4VEMN9H"
+    },
+    {
+      "_id": "conn-mdgXodem",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-ZVLBM8Rl",
+      "to": "elem-JeCr9gjV"
+    },
+    {
+      "_id": "conn-mz7mtwjj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-QTMggMvV",
+      "to": "elem-RUN8Grsi"
+    },
+    {
+      "_id": "conn-n93OLKKN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-Vl0BQUee",
+      "to": "elem-lNrVqBjF"
+    },
+    {
+      "_id": "conn-nK6lXh1A",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-8jUeE4Du",
+      "to": "elem-jNbjYBJp"
+    },
+    {
+      "_id": "conn-nWYrYTwz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-FGAHBaf2",
+      "to": "elem-dyfrWtYA"
+    },
+    {
+      "_id": "conn-nwYyUGxA",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "자손"
+      },
+      "from": "elem-ZTYFWJ0R",
+      "to": "elem-aX3QibEO"
+    },
+    {
+      "_id": "conn-o1Mp352J",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "대상"
+      },
+      "from": "elem-UuNfg9a5",
+      "to": "elem-BfQpubPe"
+    },
+    {
+      "_id": "conn-oGRqGnUV",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-zxvCdBA9",
+      "to": "elem-DuYjN7x8"
+    },
+    {
+      "_id": "conn-otuyfmEq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "자손",
+        "description": "아자토스에게서 흘러나온 원초적 부산물 이자 요그 소토스와 슈브 니구라스의 어버이"
+      },
+      "from": "elem-JeCr9gjV",
+      "to": "elem-pNx08FV1"
+    },
+    {
+      "_id": "conn-pEM0aplV",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-DWvtRa86",
+      "to": "elem-Vl0BQUee"
+    },
+    {
+      "_id": "conn-pUFHZyuH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "발생"
+      },
+      "from": "elem-PGR5GEo5",
+      "to": "elem-dk58guT2"
+    },
+    {
+      "_id": "conn-qwET0768",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "전쟁"
+      },
+      "from": "elem-RiPJyVhI",
+      "to": "elem-Z2LexF8d"
+    },
+    {
+      "_id": "conn-sjFZaLZg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-GqLFOFDP",
+      "to": "elem-h7hAO02P"
+    },
+    {
+      "_id": "conn-tBBJnEYS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "숭배"
+      },
+      "from": "elem-h7hAO02P",
+      "to": "elem-GwfbwrNt"
+    },
+    {
+      "_id": "conn-vSZY7u7R",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "발생"
+      },
+      "from": "elem-3BNoj6v3",
+      "to": "elem-jkMo5Sr6"
+    },
+    {
+      "_id": "conn-vZy2PUau",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "거주"
+      },
+      "from": "elem-kIGuqvkl",
+      "to": "elem-H638oku1"
+    },
+    {
+      "_id": "conn-vdLJvLtG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "구성"
+      },
+      "from": "elem-BfQpubPe",
+      "to": "elem-lNrVqBjF"
+    },
+    {
+      "_id": "conn-vgRRTgzR",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-8jUeE4Du",
+      "to": "elem-BfQpubPe"
+    },
+    {
+      "_id": "conn-wAFJ8oLa",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "숭배"
+      },
+      "from": "elem-SQ4BVR4q",
+      "to": "elem-j1qQ3vJy"
+    },
+    {
+      "_id": "conn-wbGLcRSj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-aveZSAHB",
+      "to": "elem-A36LkNz9"
+    },
+    {
+      "_id": "conn-wlycsMKp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "언급"
+      },
+      "from": "elem-1oNSGbhM",
+      "to": "elem-iccGgWQB"
+    },
+    {
+      "_id": "conn-xTknDEVi",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "거주"
+      },
+      "from": "elem-SQ4BVR4q",
+      "to": "elem-Od9uX8jp"
+    },
+    {
+      "_id": "conn-yU7jVaCB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-pDPvOaNu",
+      "to": "elem-HV2CkGec"
+    },
+    {
+      "_id": "conn-yfoTWxm0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "분류"
+      },
+      "from": "elem-DWvtRa86",
+      "to": "elem-zxvCdBA9"
+    },
+    {
+      "_id": "conn-ylK7S3yY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "등장"
+      },
+      "from": "elem-NBzOZUnu",
+      "to": "elem-GqLFOFDP"
+    },
+    {
+      "_id": "conn-yszEweah",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "선행"
+      },
+      "from": "elem-QTMggMvV",
+      "to": "elem-aX3QibEO"
+    },
+    {
+      "_id": "conn-yu7GrOMJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-5pYOTNwn",
+      "to": "elem-ynQq2Muj"
+    },
+    {
+      "_id": "conn-zEemU44n",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "창조"
+      },
+      "from": "elem-1oNSGbhM",
+      "to": "elem-WzPzQRYa"
+    },
+    {
+      "_id": "conn-zJffvZvw",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "참여"
+      },
+      "from": "elem-AB7MTR3O",
+      "to": "elem-8jUeE4Du"
+    },
+    {
+      "_id": "conn-zp0CtuIU",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "참여"
+      },
+      "from": "elem-NBzOZUnu",
+      "to": "elem-FyxTUDUf"
+    }
+  ],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-pZu9ed5A",
+      "name": "Untitled map",
+      "description": "**[크툴루 신화 지식 그래프]**\n- 크툴루 신화의 등장 개체, 종족, 장소, 사건, 작품, 유물의 관계를 하나의 그래프로 연결한 프로젝트입니다.\n- 방대한 세계관을 단순한 연표나 위키가 아닌 관계 중심의 네트워크로 표현하여, 사건의 흐름과 개체 간의 연결, 설정의 출처를 직관적으로 탐색할 수 있도록 구성합니다.\n- 러브크래프트 원전과 후대 설정을 구분하여 기록하며, 세계관의 구조를 시각적으로 이해하는 것을 목표로 합니다.",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-YfLihR0U",
+      "defaultElementBehavior": "fixed",
+      "defaultConnectionDirection": "directed",
+      "elements": [
+        {
+          "_id": "node-1UVZJFHw",
+          "position": {
+            "x": 186.38665767048477,
+            "y": 1276.2359480603754
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-DWvtRa86"
+        },
+        {
+          "_id": "node-1d9RX2M2",
+          "position": {
+            "x": 215.21675941653615,
+            "y": 1748.3959114906397
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fdba7d"
+          },
+          "element": "elem-JJ3c2C5r"
+        },
+        {
+          "_id": "node-1xxTUKll",
+          "position": {
+            "x": -22.47680800047086,
+            "y": -196.38916180708296
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-Y6KB6Feq"
+        },
+        {
+          "_id": "node-2mLL6A7H",
+          "position": {
+            "x": -140.45332328913096,
+            "y": -382.6655858991319
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-FGAHBaf2"
+        },
+        {
+          "_id": "node-2stkemwd",
+          "position": {
+            "x": 1173.0998233285416,
+            "y": -657.9131609499457
+          },
+          "pinned": true,
+          "style": {
+            "color": "#dedede"
+          },
+          "element": "elem-PrSBtXSa"
+        },
+        {
+          "_id": "node-3OwxWuDQ",
+          "position": {
+            "x": 100.32622769521872,
+            "y": 88.86044637340876
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-uNuqtDH8"
+        },
+        {
+          "_id": "node-4ezeSx2G",
+          "position": {
+            "x": 868.3291705536232,
+            "y": -417.5869194214412
+          },
+          "pinned": true,
+          "style": {
+            "color": "#dedede"
+          },
+          "element": "elem-rgMncuQ1"
+        },
+        {
+          "_id": "node-5gJ7bjwf",
+          "position": {
+            "x": -183.64087570208434,
+            "y": 235.0799136007013
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-QwNhmOky"
+        },
+        {
+          "_id": "node-5hCyRxtg",
+          "position": {
+            "x": 533.4121401436385,
+            "y": 325.01450751172433
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-kpZTyUmw"
+        },
+        {
+          "_id": "node-6EBtExEI",
+          "position": {
+            "x": 4054.1022196712834,
+            "y": 924.6745098728351
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fca082"
+          },
+          "element": "elem-e1vQrIYG"
+        },
+        {
+          "_id": "node-6UGEksUS",
+          "position": {
+            "x": -291.4658725315497,
+            "y": 1071.7383393758175
+          },
+          "pinned": true,
+          "style": {
+            "color": "#93560d"
+          },
+          "element": "elem-SicVZy0z"
+        },
+        {
+          "_id": "node-6YKMhOUU",
+          "position": {
+            "x": -805.6493650001811,
+            "y": -807.0424552309502
+          },
+          "pinned": true,
+          "style": {
+            "color": "#bcc3c3"
+          },
+          "element": "elem-rNWKCrrz"
+        },
+        {
+          "_id": "node-7LYNh3Zy",
+          "position": {
+            "x": -361.9563808002586,
+            "y": -380.955698486993
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-V8Ixfm5e"
+        },
+        {
+          "_id": "node-7RCjA5iJ",
+          "position": {
+            "x": 349.32035389926693,
+            "y": 1953.0605993457575
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-H638oku1"
+        },
+        {
+          "_id": "node-7T81jKf7",
+          "position": {
+            "x": 3599.8353885718657,
+            "y": 1593.452271855467
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-UuNfg9a5"
+        },
+        {
+          "_id": "node-7fsqY2Hp",
+          "position": {
+            "x": 1010.4501438716238,
+            "y": 1039.874121745739
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-CUEcwbeT"
+        },
+        {
+          "_id": "node-7u3q3tcA",
+          "position": {
+            "x": 3048.4146105902164,
+            "y": 1340.842311112236
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-mLqN1KnV"
+        },
+        {
+          "_id": "node-8PHWDFMy",
+          "position": {
+            "x": 2807.7843138068733,
+            "y": 452.7411143559436
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-QTMggMvV"
+        },
+        {
+          "_id": "node-8kbLlqq9",
+          "position": {
+            "x": 983.567663679831,
+            "y": -11.512427392974981
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-JH9Zcfgw"
+        },
+        {
+          "_id": "node-9Cs1tAUq",
+          "position": {
+            "x": -278.39144435902944,
+            "y": -538.6690955712806
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-44UQCAyR"
+        },
+        {
+          "_id": "node-9WxOdUgh",
+          "position": {
+            "x": 1268.171845571568,
+            "y": -464.776931304015
+          },
+          "pinned": true,
+          "style": {
+            "color": "#dedede"
+          },
+          "element": "elem-CCt8vjLD"
+        },
+        {
+          "_id": "node-BQta09UD",
+          "position": {
+            "x": 3800.1872679675753,
+            "y": 1215.9608007396616
+          },
+          "pinned": true,
+          "style": {
+            "color": "#000000",
+            "fontColor": "#ffffff"
+          },
+          "element": "elem-zxvCdBA9"
+        },
+        {
+          "_id": "node-BUtRLi6a",
+          "position": {
+            "x": -610.6002610705323,
+            "y": -374.71569032994995
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-Po2ynyZ5"
+        },
+        {
+          "_id": "node-CoLIAFgI",
+          "position": {
+            "x": 403.4937499046645,
+            "y": 1458.0007234276927
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fdba7d"
+          },
+          "element": "elem-Od9uX8jp"
+        },
+        {
+          "_id": "node-CsNjTRgY",
+          "position": {
+            "x": 643.9930650933896,
+            "y": -1167.8737577772904
+          },
+          "pinned": true,
+          "style": {
+            "color": "#918dc2"
+          },
+          "element": "elem-1oNSGbhM"
+        },
+        {
+          "_id": "node-DnZbDVF4",
+          "position": {
+            "x": -277.6994633138734,
+            "y": 395.1816962555629
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-vNz8XyyK"
+        },
+        {
+          "_id": "node-EAVQtrNH",
+          "position": {
+            "x": -371.96686304740484,
+            "y": 230.10645132018715
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-nyJ47amS"
+        },
+        {
+          "_id": "node-GGN0WlxR",
+          "position": {
+            "x": 1269.047580757732,
+            "y": 83.68522086919546
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-RiPJyVhI"
+        },
+        {
+          "_id": "node-HNjVfLgw",
+          "position": {
+            "x": -650.3959044883076,
+            "y": 49.43938067817992
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-AB7MTR3O"
+        },
+        {
+          "_id": "node-HgbOmOSb",
+          "position": null,
+          "pinned": false,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-qjtPpfu0"
+        },
+        {
+          "_id": "node-Ho9YTnrP",
+          "position": {
+            "x": -234.7173295614242,
+            "y": -821.60849478789
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-huvUosk9"
+        },
+        {
+          "_id": "node-HpqD66EY",
+          "position": {
+            "x": 3551.424739690277,
+            "y": 1227.4486561133363
+          },
+          "pinned": true,
+          "style": {
+            "color": "#000000",
+            "fontColor": "#ffffff"
+          },
+          "element": "elem-Vl0BQUee"
+        },
+        {
+          "_id": "node-Ic4wHn19",
+          "position": {
+            "x": 953.7763678330331,
+            "y": -1251.212115653079
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-WzPzQRYa"
+        },
+        {
+          "_id": "node-JEOKLRL5",
+          "position": {
+            "x": 453.95843864446374,
+            "y": 1701.6110076826312
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fdba7d"
+          },
+          "element": "elem-vPKrToTj"
+        },
+        {
+          "_id": "node-JY0DRLOm",
+          "position": {
+            "x": -782.5259283527324,
+            "y": -1166.1087032525122
+          },
+          "pinned": true,
+          "style": {
+            "color": "#bcc3c3"
+          },
+          "element": "elem-ZVLBM8Rl"
+        },
+        {
+          "_id": "node-JcsSAPDF",
+          "position": {
+            "x": 1080.9541516510815,
+            "y": 1387.5621077104072
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fdba7d"
+          },
+          "element": "elem-MIjD3ngK"
+        },
+        {
+          "_id": "node-Ju4z8Qef",
+          "position": {
+            "x": 334.3216533100604,
+            "y": -368.96122840952887
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-R82NWkYZ"
+        },
+        {
+          "_id": "node-K9OR1Pab",
+          "position": {
+            "x": -95.96425274651078,
+            "y": 916.8533822693347
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-GnZb9mZI"
+        },
+        {
+          "_id": "node-KIOZ7d0b",
+          "position": {
+            "x": 430.30729132014307,
+            "y": -1159.5160784400284
+          },
+          "pinned": true,
+          "style": {
+            "color": "#918dc2"
+          },
+          "element": "elem-PGR5GEo5"
+        },
+        {
+          "_id": "node-L5E7Boz5",
+          "position": {
+            "x": -290.2586543619378,
+            "y": 62.22664283202336
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-Z2LexF8d"
+        },
+        {
+          "_id": "node-LV2u6KS0",
+          "position": {
+            "x": -8.266588139026798,
+            "y": -810.0216270622873
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-5XpECH1b"
+        },
+        {
+          "_id": "node-LyGIlVzQ",
+          "position": {
+            "x": -251.66135225587993,
+            "y": -200.85664462356468
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-r1TLfemc"
+        },
+        {
+          "_id": "node-MGMRS9Od",
+          "position": {
+            "x": 756.9310542184584,
+            "y": 1030.1825907107761
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-1YSuwVmS"
+        },
+        {
+          "_id": "node-N6ZFuuEz",
+          "position": {
+            "x": -488.3711086679117,
+            "y": -541.9321142932677
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-NBzOZUnu"
+        },
+        {
+          "_id": "node-PP0psgER",
+          "position": {
+            "x": -479.95767222253585,
+            "y": -196.55541861341263
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-vEtNAJzT"
+        },
+        {
+          "_id": "node-Pj8JtCt0",
+          "position": {
+            "x": 1677.662647410337,
+            "y": 1005.2238629004487
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-K9iUCkPR"
+        },
+        {
+          "_id": "node-QNzm1w9f",
+          "position": {
+            "x": 1402.8798187815003,
+            "y": -242.5680237380205
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-zKetR498"
+        },
+        {
+          "_id": "node-Rqg49HaC",
+          "position": {
+            "x": 537.5007285577545,
+            "y": 1521.3388454382418
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fdba7d"
+          },
+          "element": "elem-haNoF7xU"
+        },
+        {
+          "_id": "node-RyHgHJxC",
+          "position": {
+            "x": 577.2458095979321,
+            "y": 76.7072772284887
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-fXUmqFYg"
+        },
+        {
+          "_id": "node-SV1JvVxH",
+          "position": {
+            "x": 166.03079978829643,
+            "y": -1272.2695269215574
+          },
+          "pinned": true,
+          "style": {
+            "color": "#918dc2"
+          },
+          "element": "elem-GwfbwrNt"
+        },
+        {
+          "_id": "node-T5bJO6uX",
+          "position": {
+            "x": 423.58539449296785,
+            "y": -552.9212351402483
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-t9OKb5Gc"
+        },
+        {
+          "_id": "node-T6O4XlK8",
+          "position": {
+            "x": 1603.0271189106054,
+            "y": 1688.7992693852366
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fdba7d"
+          },
+          "element": "elem-HTb4CgqA"
+        },
+        {
+          "_id": "node-TEm8GfPJ",
+          "position": {
+            "x": 2941.4219268810953,
+            "y": 880.2952419075411
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-PbP7plCi"
+        },
+        {
+          "_id": "node-UB0XOiQZ",
+          "position": {
+            "x": 185.04150973633102,
+            "y": -539.6586487395389
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-pDPvOaNu"
+        },
+        {
+          "_id": "node-UWydoRFH",
+          "position": {
+            "x": 220.06384456828295,
+            "y": -796.2075842664939
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-OO8x6o8f"
+        },
+        {
+          "_id": "node-VBvmkwK1",
+          "position": {
+            "x": 581.7894406781654,
+            "y": 1037.412189354581
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-jkMo5Sr6"
+        },
+        {
+          "_id": "node-VMS4A2ei",
+          "position": {
+            "x": 1018.1220887892521,
+            "y": 1686.6166324763462
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fdba7d"
+          },
+          "element": "elem-3BNoj6v3"
+        },
+        {
+          "_id": "node-VvrvJlSU",
+          "position": {
+            "x": -97.25389927634974,
+            "y": 76.74950177462904
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-veiskIU5"
+        },
+        {
+          "_id": "node-WTMC2hfL",
+          "position": {
+            "x": -454.8208940469861,
+            "y": -1171.474914030098
+          },
+          "pinned": true,
+          "style": {
+            "color": "#918dc2"
+          },
+          "element": "elem-JeCr9gjV"
+        },
+        {
+          "_id": "node-WyIdvIci",
+          "position": {
+            "x": 3485.225016749602,
+            "y": 888.1839522473904
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fca082"
+          },
+          "element": "elem-TznGTP6s"
+        },
+        {
+          "_id": "node-XSyx2v0i",
+          "position": {
+            "x": 1146.3518694984743,
+            "y": -1024.7288061222143
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-dk58guT2"
+        },
+        {
+          "_id": "node-Xpv0ImhE",
+          "position": {
+            "x": 2765.663182012362,
+            "y": 707.4396679344671
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fca082"
+          },
+          "element": "elem-oWVNddBD"
+        },
+        {
+          "_id": "node-YFGKnNBe",
+          "position": {
+            "x": -13.680167825741357,
+            "y": -1157.2826914233149
+          },
+          "pinned": true,
+          "style": {
+            "color": "#918dc2"
+          },
+          "element": "elem-ZTYFWJ0R"
+        },
+        {
+          "_id": "node-YbmYf6xl",
+          "position": {
+            "x": 1018.5303482039365,
+            "y": 1514.7948964744608
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fdba7d"
+          },
+          "element": "elem-WJSDbFGk"
+        },
+        {
+          "_id": "node-YhNe5IPd",
+          "position": {
+            "x": 1850.6485688519292,
+            "y": 982.4560207375841
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-L4TIHzGb"
+        },
+        {
+          "_id": "node-Yxy77s5K",
+          "position": {
+            "x": 540.8261138467376,
+            "y": 1301.7937016716278
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fdba7d"
+          },
+          "element": "elem-HV2CkGec"
+        },
+        {
+          "_id": "node-Z8AOw3Aa",
+          "position": {
+            "x": 1287.8841295762745,
+            "y": 1546.745338147479
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fdba7d"
+          },
+          "element": "elem-seITA74i"
+        },
+        {
+          "_id": "node-aJMDIwoy",
+          "position": {
+            "x": 3287.4774043193147,
+            "y": 871.2916819833317
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fca082"
+          },
+          "element": "elem-aX3QibEO"
+        },
+        {
+          "_id": "node-aOQxlinh",
+          "position": {
+            "x": 1078.9388863459342,
+            "y": 889.8658335038396
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-5pYOTNwn"
+        },
+        {
+          "_id": "node-ajZeVk6S",
+          "position": {
+            "x": 887.1782490194763,
+            "y": 195.7888785636039
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-6P103o13"
+        },
+        {
+          "_id": "node-chFWmlLY",
+          "position": {
+            "x": -457.51063652850297,
+            "y": 1059.8973764987131
+          },
+          "pinned": true,
+          "style": {
+            "color": "#93560d"
+          },
+          "element": "elem-j1qQ3vJy"
+        },
+        {
+          "_id": "node-d7qAWl9m",
+          "position": {
+            "x": -492.64564979690505,
+            "y": 402.7534590090815
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-BfQpubPe"
+        },
+        {
+          "_id": "node-dQxm0ruy",
+          "position": {
+            "x": 534.8688241205241,
+            "y": -374.9045335683727
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-bGS2YMwt"
+        },
+        {
+          "_id": "node-fRoFD4EP",
+          "position": {
+            "x": -469.60848484267564,
+            "y": 57.854555841389505
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-J2dn3GHo"
+        },
+        {
+          "_id": "node-gXijEVa5",
+          "position": {
+            "x": 2081.9855793244033,
+            "y": 980.6727418055332
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-KjMHZPtZ"
+        },
+        {
+          "_id": "node-gaKFcZrA",
+          "position": {
+            "x": 1387.986083642581,
+            "y": 333.39746564464303
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-LrXtXq9m"
+        },
+        {
+          "_id": "node-hAueKTjo",
+          "position": {
+            "x": 769.1832331108081,
+            "y": 1530.0251083159449
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ynQq2Muj"
+        },
+        {
+          "_id": "node-hDJNB7RT",
+          "position": {
+            "x": 3304.782475394365,
+            "y": 1212.4563920805663
+          },
+          "pinned": true,
+          "style": {
+            "color": "#000000",
+            "fontColor": "#ffffff"
+          },
+          "element": "elem-ybe66qCe"
+        },
+        {
+          "_id": "node-hVupbZR2",
+          "position": {
+            "x": 2474.764359232709,
+            "y": 877.806639384045
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-8jUeE4Du"
+        },
+        {
+          "_id": "node-hjK4t1xk",
+          "position": {
+            "x": -570.6915912851334,
+            "y": 217.79726187508462
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-eqPEVB4p"
+        },
+        {
+          "_id": "node-hpKg5POL",
+          "position": {
+            "x": 628.0324873832558,
+            "y": 1398.6033057695063
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fdba7d"
+          },
+          "element": "elem-FpGqbHCA"
+        },
+        {
+          "_id": "node-hzLtsvSa",
+          "position": {
+            "x": -270.06677744518754,
+            "y": 920.2609780145732
+          },
+          "pinned": true,
+          "style": {
+            "color": "#93560d"
+          },
+          "element": "elem-zLSK6hGW"
+        },
+        {
+          "_id": "node-ix6ug3aa",
+          "position": {
+            "x": 2308.9951968048476,
+            "y": 1255.1354136785146
+          },
+          "pinned": true,
+          "style": {
+            "color": "#000000",
+            "fontColor": "#ffffff"
+          },
+          "element": "elem-qZrotQSB"
+        },
+        {
+          "_id": "node-jO3jx5rH",
+          "position": {
+            "x": 971.6351910080488,
+            "y": -951.6884285459329
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-iccGgWQB"
+        },
+        {
+          "_id": "node-jRMbOSd1",
+          "position": {
+            "x": -255.2387940741224,
+            "y": 680.7247529595953
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-h7hAO02P"
+        },
+        {
+          "_id": "node-jWYeQwgn",
+          "position": {
+            "x": 3771.9495614400435,
+            "y": 889.3254262630792
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fca082"
+          },
+          "element": "elem-RUN8Grsi"
+        },
+        {
+          "_id": "node-jd23A8dM",
+          "position": {
+            "x": 209.8365037740499,
+            "y": -212.83277833250972
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-STm7AWyH"
+        },
+        {
+          "_id": "node-jtc3tyCa",
+          "position": {
+            "x": 753.6183747793044,
+            "y": 129.646235439069
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-8nXBbOT8"
+        },
+        {
+          "_id": "node-kAPkEDOe",
+          "position": {
+            "x": 820.6455715965799,
+            "y": 1350.317873590055
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-GTDiM8Wn"
+        },
+        {
+          "_id": "node-kGwPPmcc",
+          "position": {
+            "x": 5.148357666448056,
+            "y": 226.1467241095558
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-PJa83YQz"
+        },
+        {
+          "_id": "node-kub54bCm",
+          "position": {
+            "x": 1382.5095561212552,
+            "y": -567.7302884342341
+          },
+          "pinned": true,
+          "style": {
+            "color": "#dedede"
+          },
+          "element": "elem-A36LkNz9"
+        },
+        {
+          "_id": "node-lUACufRd",
+          "position": {
+            "x": 496.63533203575605,
+            "y": -803.8202775006789
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-XRMGNe0c"
+        },
+        {
+          "_id": "node-mTvxHFrQ",
+          "position": {
+            "x": 595.6578219310301,
+            "y": 646.7324244074241
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-seVQvdmV"
+        },
+        {
+          "_id": "node-nYkbWQZr",
+          "position": {
+            "x": 563.0433044902578,
+            "y": -34.5754605914603
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-pNx08FV1"
+        },
+        {
+          "_id": "node-ntyGBPGC",
+          "position": {
+            "x": 207.8171655601104,
+            "y": 1434.6656662688445
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-fJiFhOxh"
+        },
+        {
+          "_id": "node-oZqqtXFs",
+          "position": {
+            "x": 2956.4112695724016,
+            "y": 706.9612037232282
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fca082"
+          },
+          "element": "elem-cam24mLC"
+        },
+        {
+          "_id": "node-pSbHw3ZB",
+          "position": {
+            "x": 2282.4482552646077,
+            "y": 1019.5869740568507
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-HfdnhW7Q"
+        },
+        {
+          "_id": "node-phvjqICb",
+          "position": {
+            "x": -96.11758511308607,
+            "y": 409.1802022823834
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-DuYjN7x8"
+        },
+        {
+          "_id": "node-poD4k9G7",
+          "position": {
+            "x": 83.5836701835195,
+            "y": -379.29670517198707
+          },
+          "pinned": true,
+          "style": {
+            "color": "#abcfe6"
+          },
+          "element": "elem-9x9ceYJH"
+        },
+        {
+          "_id": "node-qLVEY96i",
+          "position": {
+            "x": 407.5238591757636,
+            "y": 1056.9887871914411
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-HgXSmySl"
+        },
+        {
+          "_id": "node-qPiADCVD",
+          "position": {
+            "x": 1682.6149537101053,
+            "y": -174.8720004292797
+          },
+          "pinned": true,
+          "style": {
+            "color": "#000000",
+            "fontColor": "#ffffff"
+          },
+          "element": "elem-WE353FLE"
+        },
+        {
+          "_id": "node-qnvvrbQ4",
+          "position": {
+            "x": 1152.9728040232012,
+            "y": -1226.31097108963
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-k0zdkKWk"
+        },
+        {
+          "_id": "node-qyz6o4Zp",
+          "position": {
+            "x": -211.8395893862883,
+            "y": -1167.1576990180718
+          },
+          "pinned": true,
+          "style": {
+            "color": "#918dc2"
+          },
+          "element": "elem-SQ4BVR4q"
+        },
+        {
+          "_id": "node-rXvqPW8U",
+          "position": {
+            "x": -510.5353455469232,
+            "y": -835.5159677357078
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-kIGuqvkl"
+        },
+        {
+          "_id": "node-sKlyXkYG",
+          "position": {
+            "x": 1241.0715579038517,
+            "y": 1047.126277496021
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-J83Hy1X4"
+        },
+        {
+          "_id": "node-smfD53TN",
+          "position": {
+            "x": -689.5142197524559,
+            "y": 396.0957324050648
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-qhZbRjKd"
+        },
+        {
+          "_id": "node-t9j0vFTG",
+          "position": {
+            "x": 1490.9877676721815,
+            "y": 960.1067257712548
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-UrURiwGx"
+        },
+        {
+          "_id": "node-tIc5n65j",
+          "position": {
+            "x": 671.8451282428256,
+            "y": 1683.2709730747486
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fdba7d"
+          },
+          "element": "elem-96UJ53lY"
+        },
+        {
+          "_id": "node-tKWFZNU2",
+          "position": {
+            "x": 988.1248596511342,
+            "y": -545.1412890334383
+          },
+          "pinned": true,
+          "style": {
+            "color": "#dedede"
+          },
+          "element": "elem-H4VEMN9H"
+        },
+        {
+          "_id": "node-tQ8KlhKz",
+          "position": {
+            "x": -822.8847439197923,
+            "y": -535.6754109949653
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-QC5dzrm9"
+        },
+        {
+          "_id": "node-tfw5hr7d",
+          "position": {
+            "x": 188.92993463986357,
+            "y": 233.17961219681513
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-EkSiYtUP"
+        },
+        {
+          "_id": "node-tuHv5peL",
+          "position": {
+            "x": 4039.9832343130324,
+            "y": 1202.009617676269
+          },
+          "pinned": true,
+          "style": {
+            "color": "#000000",
+            "fontColor": "#ffffff"
+          },
+          "element": "elem-aveZSAHB"
+        },
+        {
+          "_id": "node-tx8Dy9HC",
+          "position": {
+            "x": 1217.5543472216398,
+            "y": -307.9822256233984
+          },
+          "pinned": true,
+          "style": {
+            "color": "#dedede"
+          },
+          "element": "elem-QYwfE7WF"
+        },
+        {
+          "_id": "node-u5MzHP88",
+          "position": {
+            "x": 1503.0340182442947,
+            "y": -411.0926594645649
+          },
+          "pinned": true,
+          "style": {
+            "color": "#dedede"
+          },
+          "element": "elem-4gMI38Sb"
+        },
+        {
+          "_id": "node-uAch0miE",
+          "position": {
+            "x": -744.645043450455,
+            "y": 212.83166719697846
+          },
+          "pinned": true,
+          "style": {
+            "color": "#aedfa7"
+          },
+          "element": "elem-BMCduCKq"
+        },
+        {
+          "_id": "node-ufoQXf23",
+          "position": {
+            "x": 2575.300046112848,
+            "y": 698.2102422501221
+          },
+          "pinned": true,
+          "style": {
+            "color": "#fca082"
+          },
+          "element": "elem-ZXz1LyHJ"
+        },
+        {
+          "_id": "node-uqIdRmX1",
+          "position": {
+            "x": 4250.75861997299,
+            "y": 1214.227979103876
+          },
+          "pinned": true,
+          "style": {
+            "color": "#000000",
+            "fontColor": "#ffffff"
+          },
+          "element": "elem-GqLFOFDP"
+        },
+        {
+          "_id": "node-uueMDKyu",
+          "position": {
+            "x": 191.27619732905916,
+            "y": 1045.496776290975
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-GtRbcZPy"
+        },
+        {
+          "_id": "node-vTxrqelb",
+          "position": {
+            "x": 973.372906304611,
+            "y": -1098.5889727039275
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-NCdb4qpD"
+        },
+        {
+          "_id": "node-vdfLtRpD",
+          "position": {
+            "x": -73.03160628812381,
+            "y": 687.2882118247268
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-dyfrWtYA"
+        },
+        {
+          "_id": "node-wEEPDdc2",
+          "position": {
+            "x": -450.74638304515094,
+            "y": 916.5147075201857
+          },
+          "pinned": true,
+          "style": {
+            "color": "#93560d"
+          },
+          "element": "elem-lNrVqBjF"
+        },
+        {
+          "_id": "node-wN50tvuB",
+          "position": {
+            "x": 2006.0147467002234,
+            "y": 1195.331609083561
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-FyxTUDUf"
+        },
+        {
+          "_id": "node-yJIUXYoT",
+          "position": {
+            "x": 2626.2043632297523,
+            "y": 1033.462849232703
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-jNbjYBJp"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-05Ygy6CW",
+          "style": {},
+          "connection": "conn-Af56HFRE"
+        },
+        {
+          "_id": "edge-0CUq25QQ",
+          "style": {},
+          "connection": "conn-BXFN7Oa2"
+        },
+        {
+          "_id": "edge-0Dic1btj",
+          "style": {},
+          "connection": "conn-9ahfDMqD"
+        },
+        {
+          "_id": "edge-11EF3OqG",
+          "style": {},
+          "connection": "conn-gB9n73ld"
+        },
+        {
+          "_id": "edge-1440bKUg",
+          "style": {},
+          "connection": "conn-OiiIHUhV"
+        },
+        {
+          "_id": "edge-17zi9Y5A",
+          "style": {},
+          "connection": "conn-ikwvC5Fq"
+        },
+        {
+          "_id": "edge-1o8NG9AA",
+          "style": {},
+          "connection": "conn-Rjwkwhp1"
+        },
+        {
+          "_id": "edge-2GjgxR0o",
+          "style": {},
+          "connection": "conn-OjTbDnQ8"
+        },
+        {
+          "_id": "edge-2KZg9xtm",
+          "style": {},
+          "connection": "conn-Pq657JeT"
+        },
+        {
+          "_id": "edge-3HVhrBxC",
+          "style": {},
+          "connection": "conn-Nw6VUnRS"
+        },
+        {
+          "_id": "edge-3OlDyZT1",
+          "style": {},
+          "connection": "conn-MtZbGyHm"
+        },
+        {
+          "_id": "edge-3QRUIrin",
+          "style": {},
+          "connection": "conn-G0WE2zi4"
+        },
+        {
+          "_id": "edge-3fyCXg0L",
+          "style": {},
+          "connection": "conn-nwYyUGxA"
+        },
+        {
+          "_id": "edge-4iBSqjdg",
+          "style": {},
+          "connection": "conn-0CbJrVTH"
+        },
+        {
+          "_id": "edge-4usE0CjM",
+          "style": {},
+          "connection": "conn-5026VQNx"
+        },
+        {
+          "_id": "edge-5HFO26NY",
+          "style": {},
+          "connection": "conn-amgChtl8"
+        },
+        {
+          "_id": "edge-5sCrRFSk",
+          "style": {},
+          "connection": "conn-bDf4X2rl"
+        },
+        {
+          "_id": "edge-5sRxSv2J",
+          "style": {},
+          "connection": "conn-GLtcG79z"
+        },
+        {
+          "_id": "edge-61BKWFi9",
+          "style": {},
+          "connection": "conn-PublsHlM"
+        },
+        {
+          "_id": "edge-6879vNsb",
+          "style": {},
+          "connection": "conn-OXiVoagI"
+        },
+        {
+          "_id": "edge-6NVby09t",
+          "style": {},
+          "connection": "conn-Bu5rGhnr"
+        },
+        {
+          "_id": "edge-6nHag4Mt",
+          "style": {},
+          "connection": "conn-8BieVAAh"
+        },
+        {
+          "_id": "edge-6nqolwCE",
+          "style": {},
+          "connection": "conn-hO2OMx3M"
+        },
+        {
+          "_id": "edge-7sGk3XjR",
+          "style": {},
+          "connection": "conn-XJcjFy2U"
+        },
+        {
+          "_id": "edge-7xyBlXcL",
+          "style": {},
+          "connection": "conn-KETpnqi1"
+        },
+        {
+          "_id": "edge-8G2JYHzi",
+          "style": {},
+          "connection": "conn-gK6SzB1w"
+        },
+        {
+          "_id": "edge-8ukv4pfN",
+          "style": {},
+          "connection": "conn-TMXq0sXg"
+        },
+        {
+          "_id": "edge-8vJibPXA",
+          "style": {},
+          "connection": "conn-VuTHC02g"
+        },
+        {
+          "_id": "edge-9QJmciI0",
+          "style": {},
+          "connection": "conn-VwYhftdY"
+        },
+        {
+          "_id": "edge-Ad8uRicy",
+          "style": {},
+          "connection": "conn-dfj1YQBf"
+        },
+        {
+          "_id": "edge-AvALY8Ea",
+          "style": {},
+          "connection": "conn-I69F8g0C"
+        },
+        {
+          "_id": "edge-BEGER2hk",
+          "style": {},
+          "connection": "conn-ASmHH3Cv"
+        },
+        {
+          "_id": "edge-BEggkPSx",
+          "style": {},
+          "connection": "conn-g71WQzri"
+        },
+        {
+          "_id": "edge-BRm1aNo6",
+          "style": {},
+          "connection": "conn-MtKANpCo"
+        },
+        {
+          "_id": "edge-BUOmwoNR",
+          "curvature": 0.31079702853331886,
+          "style": {},
+          "connection": "conn-7x4jjekP"
+        },
+        {
+          "_id": "edge-BWfIfVkn",
+          "style": {},
+          "connection": "conn-1tMjaP2X"
+        },
+        {
+          "_id": "edge-BsiAbUFd",
+          "style": {},
+          "connection": "conn-ZUB2t055"
+        },
+        {
+          "_id": "edge-CRP1yDow",
+          "style": {},
+          "connection": "conn-6a5l0YMI"
+        },
+        {
+          "_id": "edge-CfIJYHw1",
+          "style": {},
+          "connection": "conn-iW3FaShX"
+        },
+        {
+          "_id": "edge-CrAXDBBE",
+          "style": {},
+          "connection": "conn-JXB9xM0j"
+        },
+        {
+          "_id": "edge-DVPu79sj",
+          "style": {},
+          "connection": "conn-mz7mtwjj"
+        },
+        {
+          "_id": "edge-DXbibPp9",
+          "style": {},
+          "connection": "conn-H6hssYFi"
+        },
+        {
+          "_id": "edge-Dq08wM4n",
+          "style": {},
+          "connection": "conn-vSZY7u7R"
+        },
+        {
+          "_id": "edge-Dr20ZFaZ",
+          "style": {},
+          "connection": "conn-X9rw3YA5"
+        },
+        {
+          "_id": "edge-EBDWPoE9",
+          "style": {},
+          "connection": "conn-6gMKBFP0"
+        },
+        {
+          "_id": "edge-ESfBx3bK",
+          "style": {},
+          "connection": "conn-pEM0aplV"
+        },
+        {
+          "_id": "edge-EV0rLvzq",
+          "style": {},
+          "connection": "conn-NWOPvoan"
+        },
+        {
+          "_id": "edge-EWOBPGYa",
+          "style": {},
+          "connection": "conn-yfoTWxm0"
+        },
+        {
+          "_id": "edge-FHAi178Q",
+          "style": {},
+          "connection": "conn-33u3xOh7"
+        },
+        {
+          "_id": "edge-Fx8T5dgT",
+          "style": {},
+          "connection": "conn-mWoBsB3Z"
+        },
+        {
+          "_id": "edge-GNHsLpwl",
+          "style": {},
+          "connection": "conn-Jh557axV"
+        },
+        {
+          "_id": "edge-Gr2l0FpT",
+          "style": {},
+          "connection": "conn-9X9iMppu"
+        },
+        {
+          "_id": "edge-H5iYBCaN",
+          "style": {},
+          "connection": "conn-JUFszSsf"
+        },
+        {
+          "_id": "edge-HfzLI0wj",
+          "style": {},
+          "connection": "conn-NDh3MNtA"
+        },
+        {
+          "_id": "edge-IHEcFZ6C",
+          "style": {},
+          "connection": "conn-QzR6mw7U"
+        },
+        {
+          "_id": "edge-IYYhJTFl",
+          "style": {},
+          "connection": "conn-8jamv7tm"
+        },
+        {
+          "_id": "edge-JbkV2BtE",
+          "style": {},
+          "connection": "conn-e2UEZEQZ"
+        },
+        {
+          "_id": "edge-JcCgUZv1",
+          "style": {},
+          "connection": "conn-FF8mDwbE"
+        },
+        {
+          "_id": "edge-JdYNtcwb",
+          "style": {},
+          "connection": "conn-12IbSmMa"
+        },
+        {
+          "_id": "edge-K57qO2zz",
+          "style": {},
+          "connection": "conn-5eN2VRsF"
+        },
+        {
+          "_id": "edge-KGgDkJNb",
+          "style": {},
+          "connection": "conn-yszEweah"
+        },
+        {
+          "_id": "edge-KQO4kCtm",
+          "style": {},
+          "connection": "conn-bl3g8lWs"
+        },
+        {
+          "_id": "edge-KiN43WMt",
+          "style": {},
+          "connection": "conn-sjFZaLZg"
+        },
+        {
+          "_id": "edge-Kzxs1AAP",
+          "style": {},
+          "connection": "conn-PT6ueoF0"
+        },
+        {
+          "_id": "edge-L4Xkal2D",
+          "style": {},
+          "connection": "conn-eYyaGTRC"
+        },
+        {
+          "_id": "edge-M0CnMQSs",
+          "style": {},
+          "connection": "conn-AIed4eUk"
+        },
+        {
+          "_id": "edge-MfpO6mvm",
+          "style": {},
+          "connection": "conn-bdV8rs7z"
+        },
+        {
+          "_id": "edge-NW9RAy0c",
+          "style": {},
+          "connection": "conn-QZKMLIam"
+        },
+        {
+          "_id": "edge-OPhrOQAP",
+          "style": {},
+          "connection": "conn-jiJ5TJgx"
+        },
+        {
+          "_id": "edge-PWBkq3nZ",
+          "style": {},
+          "connection": "conn-pUFHZyuH"
+        },
+        {
+          "_id": "edge-PYC7aCAP",
+          "style": {},
+          "connection": "conn-ylK7S3yY"
+        },
+        {
+          "_id": "edge-QCs4BR21",
+          "style": {},
+          "connection": "conn-FBfNP1BZ"
+        },
+        {
+          "_id": "edge-QSU45x9g",
+          "style": {},
+          "connection": "conn-dbdIvWOY"
+        },
+        {
+          "_id": "edge-Qnt7R1Xp",
+          "style": {},
+          "connection": "conn-J4XSqzn6"
+        },
+        {
+          "_id": "edge-RHnAxAZz",
+          "style": {},
+          "connection": "conn-xTknDEVi"
+        },
+        {
+          "_id": "edge-RwzJgN8H",
+          "style": {},
+          "connection": "conn-GVJnsGx4"
+        },
+        {
+          "_id": "edge-SZ38XKJc",
+          "style": {},
+          "connection": "conn-LEbap5GX"
+        },
+        {
+          "_id": "edge-SiSZfKpl",
+          "style": {},
+          "connection": "conn-m9AMkSJH"
+        },
+        {
+          "_id": "edge-TPvpcjBH",
+          "style": {},
+          "connection": "conn-RU4rT1rW"
+        },
+        {
+          "_id": "edge-TaBdfMEl",
+          "style": {},
+          "connection": "conn-TxVKjmni"
+        },
+        {
+          "_id": "edge-TswstXl6",
+          "style": {},
+          "connection": "conn-NIB8tAiX"
+        },
+        {
+          "_id": "edge-U3I1P9B7",
+          "style": {},
+          "connection": "conn-7tSjh9Xy"
+        },
+        {
+          "_id": "edge-UpOJx6vS",
+          "style": {},
+          "connection": "conn-wlycsMKp"
+        },
+        {
+          "_id": "edge-VLUfJAQ9",
+          "style": {},
+          "connection": "conn-Aooo7rWs"
+        },
+        {
+          "_id": "edge-WMvfVyf0",
+          "style": {},
+          "connection": "conn-o1Mp352J"
+        },
+        {
+          "_id": "edge-WlWgSE5Z",
+          "style": {},
+          "connection": "conn-N6z44bj0"
+        },
+        {
+          "_id": "edge-X1BDJ6z0",
+          "style": {},
+          "connection": "conn-yu7GrOMJ"
+        },
+        {
+          "_id": "edge-XOS37fUb",
+          "style": {},
+          "connection": "conn-ZpVCTgkl"
+        },
+        {
+          "_id": "edge-Xkx8vlNc",
+          "style": {},
+          "connection": "conn-mGpqo7ew"
+        },
+        {
+          "_id": "edge-Xu0dHB4E",
+          "style": {},
+          "connection": "conn-zp0CtuIU"
+        },
+        {
+          "_id": "edge-YKvoMEUe",
+          "style": {},
+          "connection": "conn-wAFJ8oLa"
+        },
+        {
+          "_id": "edge-YlWt74UM",
+          "style": {},
+          "connection": "conn-Q1y9SZmE"
+        },
+        {
+          "_id": "edge-ZfpOxEo3",
+          "style": {},
+          "connection": "conn-m5AbRBw0"
+        },
+        {
+          "_id": "edge-ZjmimloG",
+          "style": {},
+          "connection": "conn-BqwGGXuf"
+        },
+        {
+          "_id": "edge-a7hXAMop",
+          "style": {},
+          "connection": "conn-ZcaCjuCg"
+        },
+        {
+          "_id": "edge-aUgWcElm",
+          "style": {},
+          "connection": "conn-YfSXNqmV"
+        },
+        {
+          "_id": "edge-ao0hW9de",
+          "style": {},
+          "connection": "conn-K28pnzRu"
+        },
+        {
+          "_id": "edge-b6NhHaST",
+          "style": {},
+          "connection": "conn-VBuVmGPG"
+        },
+        {
+          "_id": "edge-bHTkJ4hn",
+          "style": {},
+          "connection": "conn-ew5dN2FD"
+        },
+        {
+          "_id": "edge-bv3nC3LU",
+          "style": {},
+          "connection": "conn-RgBCTFlw"
+        },
+        {
+          "_id": "edge-c2l634gx",
+          "style": {},
+          "connection": "conn-Xw4CW1gj"
+        },
+        {
+          "_id": "edge-d67lgxpo",
+          "style": {},
+          "connection": "conn-nK6lXh1A"
+        },
+        {
+          "_id": "edge-d8eDgCpr",
+          "style": {},
+          "connection": "conn-aa3SuOoH"
+        },
+        {
+          "_id": "edge-dPoJhr4u",
+          "style": {},
+          "connection": "conn-FIaDh6DY"
+        },
+        {
+          "_id": "edge-dQPHeNul",
+          "style": {},
+          "connection": "conn-GmPLm1sX"
+        },
+        {
+          "_id": "edge-e6CNFR3n",
+          "style": {},
+          "connection": "conn-f8uxlLN8"
+        },
+        {
+          "_id": "edge-eWHM0EQs",
+          "style": {},
+          "connection": "conn-qwET0768"
+        },
+        {
+          "_id": "edge-f6VN4PS0",
+          "style": {},
+          "connection": "conn-mdgXodem"
+        },
+        {
+          "_id": "edge-fCX4poG8",
+          "style": {},
+          "connection": "conn-CY3DTLlq"
+        },
+        {
+          "_id": "edge-fHCxzlJ8",
+          "style": {},
+          "connection": "conn-SfKah3Yb"
+        },
+        {
+          "_id": "edge-gBlqM6cZ",
+          "style": {},
+          "connection": "conn-dfuStpA8"
+        },
+        {
+          "_id": "edge-gZEFQ4dN",
+          "style": {},
+          "connection": "conn-OKa5ZC7I"
+        },
+        {
+          "_id": "edge-ijnlJ6hu",
+          "style": {},
+          "connection": "conn-Vr9l1QRH"
+        },
+        {
+          "_id": "edge-jFFi3gTN",
+          "style": {},
+          "connection": "conn-PxuEwfjY"
+        },
+        {
+          "_id": "edge-jaePQpQI",
+          "style": {},
+          "connection": "conn-zEemU44n"
+        },
+        {
+          "_id": "edge-jbUsZFIU",
+          "style": {},
+          "connection": "conn-n93OLKKN"
+        },
+        {
+          "_id": "edge-k51t4nix",
+          "style": {},
+          "connection": "conn-vZy2PUau"
+        },
+        {
+          "_id": "edge-k9dEdJ9V",
+          "curvature": 0.2236763816524133,
+          "style": {},
+          "connection": "conn-ayFI03hR"
+        },
+        {
+          "_id": "edge-kBtR7GIN",
+          "style": {},
+          "connection": "conn-zJffvZvw"
+        },
+        {
+          "_id": "edge-kCLWWHgr",
+          "style": {},
+          "connection": "conn-WS9dju11"
+        },
+        {
+          "_id": "edge-l7dHV5o1",
+          "style": {},
+          "connection": "conn-tBBJnEYS"
+        },
+        {
+          "_id": "edge-noNUKcqV",
+          "style": {},
+          "connection": "conn-9g5pczYl"
+        },
+        {
+          "_id": "edge-oAvXggrL",
+          "style": {},
+          "connection": "conn-IfxyeGFZ"
+        },
+        {
+          "_id": "edge-oPXKPtYt",
+          "style": {},
+          "connection": "conn-9HOZ2zdk"
+        },
+        {
+          "_id": "edge-opppLhsJ",
+          "style": {},
+          "connection": "conn-VxMPnbMj"
+        },
+        {
+          "_id": "edge-ovpeFpvf",
+          "style": {},
+          "connection": "conn-vgRRTgzR"
+        },
+        {
+          "_id": "edge-pQhhVbRF",
+          "style": {},
+          "connection": "conn-I30GBF2e"
+        },
+        {
+          "_id": "edge-pSXpBZfC",
+          "style": {},
+          "connection": "conn-otuyfmEq"
+        },
+        {
+          "_id": "edge-pTVAgAb0",
+          "style": {},
+          "connection": "conn-Us0Y0Ug3"
+        },
+        {
+          "_id": "edge-pmtlMso6",
+          "style": {},
+          "connection": "conn-OHJw6oQI"
+        },
+        {
+          "_id": "edge-q5rqP3DX",
+          "style": {},
+          "connection": "conn-yU7jVaCB"
+        },
+        {
+          "_id": "edge-ql2540LX",
+          "style": {},
+          "connection": "conn-1VnpcUWt"
+        },
+        {
+          "_id": "edge-rfB1VRmc",
+          "style": {},
+          "connection": "conn-16AoejfI"
+        },
+        {
+          "_id": "edge-s5cNnJ1Z",
+          "style": {},
+          "connection": "conn-3ZpUxAvy"
+        },
+        {
+          "_id": "edge-sdvCPuK6",
+          "style": {},
+          "connection": "conn-mGRPdgPY"
+        },
+        {
+          "_id": "edge-t8aslHXN",
+          "curvature": 0.2725895497174532,
+          "style": {},
+          "connection": "conn-QNAfeuYc"
+        },
+        {
+          "_id": "edge-tTyHnchn",
+          "style": {},
+          "connection": "conn-IZu0Yi18"
+        },
+        {
+          "_id": "edge-uOpBMLHT",
+          "style": {},
+          "connection": "conn-UJnZbJk7"
+        },
+        {
+          "_id": "edge-uZW0mGul",
+          "style": {},
+          "connection": "conn-37yPJtSR"
+        },
+        {
+          "_id": "edge-ujLMNSdO",
+          "style": {},
+          "connection": "conn-9A4TBYmb"
+        },
+        {
+          "_id": "edge-umJkSsS6",
+          "style": {},
+          "connection": "conn-vdLJvLtG"
+        },
+        {
+          "_id": "edge-wRCWfbI5",
+          "style": {},
+          "connection": "conn-PfHsJWji"
+        },
+        {
+          "_id": "edge-wTpnGjuG",
+          "style": {},
+          "connection": "conn-VDXpy9xm"
+        },
+        {
+          "_id": "edge-wq0rjz67",
+          "style": {},
+          "connection": "conn-JLgt7Vxx"
+        },
+        {
+          "_id": "edge-x25IK74m",
+          "style": {},
+          "connection": "conn-KUFBZqYP"
+        },
+        {
+          "_id": "edge-x6Nr7w2V",
+          "style": {},
+          "connection": "conn-oGRqGnUV"
+        },
+        {
+          "_id": "edge-xDe8ri9o",
+          "style": {},
+          "connection": "conn-BO0mD7WB"
+        },
+        {
+          "_id": "edge-xVARUsHC",
+          "style": {},
+          "connection": "conn-UNfxLkFh"
+        },
+        {
+          "_id": "edge-yMOiHloc",
+          "style": {},
+          "connection": "conn-aEuXoKvp"
+        },
+        {
+          "_id": "edge-yWppw4et",
+          "style": {},
+          "connection": "conn-Z8IsUEea"
+        },
+        {
+          "_id": "edge-yb7IvGjE",
+          "style": {},
+          "connection": "conn-YJyyh4bf"
+        },
+        {
+          "_id": "edge-ye9GpHoE",
+          "style": {},
+          "connection": "conn-wbGLcRSj"
+        },
+        {
+          "_id": "edge-zNGZGc8u",
+          "style": {},
+          "connection": "conn-8fhaXFfU"
+        },
+        {
+          "_id": "edge-zO8uzLeS",
+          "style": {},
+          "connection": "conn-2QEDNqDX"
+        },
+        {
+          "_id": "edge-znfngdqV",
+          "style": {},
+          "connection": "conn-1HiTW3mr"
+        },
+        {
+          "_id": "edge-zvLwZuqe",
+          "style": {},
+          "connection": "conn-nWYrYTwz"
+        },
+        {
+          "_id": "edge-zxSZXmCg",
+          "style": {},
+          "connection": "conn-EZwmESU6"
+        }
+      ],
+      "loops": []
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-YfLihR0U",
+      "name": "Untitled view",
+      "style": "@settings {\n  template: systems;\n  element-size: 76;\n  include: , loop;\n}\n\n"
+    }
+  ]
+}
